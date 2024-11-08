@@ -1,0 +1,171 @@
+@import "../../../../styles/mixins/index.scss";
+
+.profile-section-all-contnet-alignment {
+  padding: 163px 0 111px 0;
+
+  @include breakpoint("md-max") {
+    padding: 115px 0 40px 0;
+  }
+
+  @include breakpoint("sm-max") {
+    padding: 93px 0 47px 0;
+  }
+  .container7 {
+    @include breakpoint("md-max") {
+      padding: 0 calc(59px - 20px);
+    }
+    @include breakpoint("sm-max") {
+      padding: 0 20px;
+    }
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+
+    @include breakpoint("md-max") {
+      gap: 32px;
+    }
+
+    @include breakpoint("sm-max") {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 60px;
+    }
+    .grid-items {
+      .img {
+        img {
+          height: 329px;
+          border-radius: 30px;
+          display: block;
+          background: rgba(255, 255, 255, 0.4);
+          width: 100%;
+          @include breakpoint("md-max") {
+            height: 231px;
+          }
+
+          @include breakpoint("sm-max") {
+            height: 380px;
+          }
+        }
+      }
+
+      .text {
+        padding: 30px 0 0 0;
+
+        @include breakpoint("sm-max") {
+          padding: 30px 20px 0 20px;
+        }
+
+        h4 {
+          color: #fff;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 95.023%; /* 22.805px */
+          margin: 0 0 8px 0;
+          letter-spacing: -0.96px;
+
+          @include breakpoint("md-max") {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 95.023%; /* 15.204px */
+            letter-spacing: -0.64px;
+          }
+
+          @include breakpoint("sm-max") {
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 95.023%; /* 22.805px */
+            letter-spacing: -0.96px;
+          }
+        }
+
+        h5 {
+          color: #fff;
+          font-size: 25px;
+          opacity: 0.7;
+          font-style: normal;
+          font-weight: 900;
+          margin: 0 0 8px 0;
+          line-height: 76.023%; /* 19.006px */
+          letter-spacing: -1px;
+
+          @include breakpoint("md-max") {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 103.023%; /* 14.423px */
+            letter-spacing: -0.56px;
+          }
+          @include breakpoint("sm-max") {
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 103.023%; /* 25.756px */
+            letter-spacing: -1px;
+          }
+        }
+        .left-right {
+          padding: 0 13px;
+          @include breakpoint("md-max") {
+            padding: 0;
+          }
+          p {
+            color: #fff;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px; /* 133.333% */
+            letter-spacing: -0.48px;
+            margin: 0 0 16px 0;
+
+            @include breakpoint("md-max") {
+              font-size: 10px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 16px; /* 160% */
+              letter-spacing: -0.4px;
+              margin: 0 0 10px 0;
+            }
+            @include breakpoint("sm-max"){
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
+letter-spacing: -0.48px;
+            }
+          }
+        }
+
+        h6 {
+          opacity: 0.7;
+          color: #fff;
+          font-size: 10px;
+          font-style: normal;
+          margin: 0 0 8px 0;
+          font-weight: 700;
+          line-height: 16px;
+          letter-spacing: -0.32px;
+
+          @include breakpoint("md-max") {
+            font-size: 8px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 103.023%; /* 8.242px */
+            letter-spacing: -0.32px;
+          }
+
+          @include breakpoint("sm-max") {
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: 103.023%; /* 10.302px */
+letter-spacing: -0.4px;
+          }
+        }
+      }
+    }
+  }
+}

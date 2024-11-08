@@ -1,0 +1,225 @@
+@import "../../../../styles/mixins/index.scss";
+
+.kontact-section-all-contnet-alignment {
+  padding: 0 0 98px 0;
+  border-bottom: 1px solid #fff;
+
+  @include breakpoint("md-max") {
+    padding: 0 0 120px 0;
+  }
+
+  @include breakpoint("sm-max") {
+    padding: 0 0 86px 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 650px;
+    gap: 40px;
+
+    @include breakpoint("md-max") {
+      padding: 0 30px;
+      grid-template-columns: 254px 1fr;
+      gap: 58px;
+    }
+    @include breakpoint("sm-max") {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 0 10px;
+    }
+    .grid-items {
+      .text-new {
+        h5 {
+          color: #fff;
+          font-size: 80px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 95.023%; /* 76.018px */
+          margin: 0 0 30px 0;
+          letter-spacing: -3.2px;
+
+          @include breakpoint("md-max") {
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 95.023%; /* 45.611px */
+            letter-spacing: -1.92px;
+          }
+        }
+
+        p , a {
+          display: block;
+          color: #fff;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 126.023%; /* 25.205px */
+          letter-spacing: -0.8px;
+
+          @include breakpoint("md-max") {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 126.023%; /* 17.643px */
+            letter-spacing: -0.56px;
+          }
+        }
+      }
+    }
+
+    .btn {
+      button {
+        color: #4b4b4b;
+        font-size: 15px;
+        font-style: normal;
+        padding: 18px 32px;
+        border: none;
+        background: #fff;
+        font-weight: 900;
+        line-height: 95.023%; /* 14.253px */
+        letter-spacing: 0.75px;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          border-radius: 5px;
+          background: rgba(255, 255, 255, 0.20);
+          transition: 0.3s ease-in-out;
+          color: #fff;
+          transform: translate(0, -3px);
+        }
+
+        @include breakpoint("md-max") {
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 95.023%; /* 11.403px */
+          letter-spacing: 0.6px;
+        }
+      }
+    }
+    .checkbox-text {
+      padding: 0 0 20px 0;
+      input[type="checkbox"] + label {
+        cursor: pointer;
+      }
+
+      label {
+        display: flex;
+        gap: 12px;
+
+        span {
+          color: #fff;
+          font-size: 14px;
+          font-style: italic;
+          font-weight: 700;
+          line-height: 126.023%; /* 17.643px */
+          letter-spacing: -0.56px;
+
+          @include breakpoint("md-max") {
+            font-size: 10px;
+            font-style: italic;
+            font-weight: 700;
+            padding: 0 !important;
+            line-height: 126.023%; /* 12.602px */
+            letter-spacing: -0.4px;
+          }
+
+          @include breakpoint("sm-max") {
+            font-size: 8px;
+            position: relative;
+            top: 4px;
+          }
+        }
+      }
+
+      input[type="checkbox"] {
+        display: none;
+      }
+
+      input[type="checkbox"] + label:before {
+        content: "✔";
+        border: 1px solid #fff;
+        border-radius: 2px;
+        background-color: #fff;
+        display: flex;
+        width: 15px;
+        height: 15px;
+        min-width: 15px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        vertical-align: bottom;
+        color: transparent;
+        transition: 0.2s;
+        font-size: 10px !important;
+        justify-content: center;
+        align-items: center;
+      }
+
+      input[type="checkbox"]:checked + label:before {
+        background: #204f3b;
+        color: #fff;
+        border: 1px solid #204f3b;
+      }
+
+      input[type="checkbox"]:checked + label:after {
+        display: block;
+        position: absolute;
+        top: 11px;
+        left: 16px;
+        width: 4px;
+        height: 10px;
+        border: 1px solid none !important;
+        border-width: 0 2px 2px 0;
+        transform: rotate(45deg);
+      }
+    }
+    .form {
+      padding: 0 0 20px 0;
+      label {
+        color: #fff;
+        display: block;
+        padding: 0 0 10px 0;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 126.023%; /* 25.205px */
+        letter-spacing: -0.8px;
+
+        @include breakpoint("md-max") {
+          font-size: 16px;
+          font-style: italic;
+          font-weight: 700;
+          line-height: 126.023%; /* 20.164px */
+          letter-spacing: -0.64px;
+        }
+      }
+
+      input {
+        width: 100%;
+        background: #fff;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        padding: 0 20px;
+        color: #000;
+
+        &:focus {
+          outline: none;
+        }
+      }
+      textarea {
+        width: 100%;
+        background: #fff;
+        height: 185px;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        padding: 20px;
+        color: #000;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,823 @@
+@import "../../../../styles/mixins/index.scss";
+
+@keyframes fillRedBorder {
+  from {
+    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%);
+  }
+}
+@keyframes fillYellowBorder37 {
+  from {
+    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 71.07%);
+
+  }
+}
+
+@keyframes fillRedBorder16 {
+  from {
+    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 33%);
+  }
+}
+@keyframes fillYellowBorder {
+  from {
+    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 75%);
+    
+  }
+}
+@keyframes fillGreenBorder {
+  from {
+    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 50%);
+    
+  }
+}
+@keyframes fillGreenBorder87 {
+  from {
+    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 30.25%);
+  
+  }
+}
+@keyframes fillGreenBorder97 {
+  from {
+    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(50.25% 49.5%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 49.75%, 0% 0%, 28.75% 0%);
+
+  
+  }
+}
+@keyframes fillGreenBorder94 {
+  from {
+    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(50.25% 49.5%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 49.75%, 0% 0%, 18.75% 0%);
+
+  
+  }
+}
+.chart-section-all-contnet-alignment {
+  padding: 0 0 167px 0;
+
+  .title {
+    padding: 0 0 24px 0;
+
+    @include breakpoint("md-max") {
+      padding: 0 0 40px 0;
+    }
+    @include breakpoint("sm-max") {
+      padding: 0 0 66px 0;
+    }
+    h4 {
+      color: #fff;
+      text-align: center;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      margin: 0 0 10px 0;
+      line-height: 109.023%; /* 54.511px */
+      letter-spacing: -2.5px;
+
+      @include breakpoint("md-max") {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 109.023%; /* 34.887px */
+        letter-spacing: -1.6px;
+      }
+    }
+
+    .line {
+      border-top: 1px solid rgba(255, 255, 255, 0.4);
+      max-width: 672px;
+      margin: 0 auto;
+
+      @include breakpoint("md-max") {
+        display: none;
+      }
+    }
+  }
+
+  .sec-heading-text {
+    padding: 80px 0 0 0;
+    h4 {
+      color: #fff;
+      text-align: center;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 109.023%; /* 65.414px */
+      letter-spacing: -3px;
+
+      @include breakpoint("md-max") {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 109.023%; /* 43.609px */
+        letter-spacing: -2px;
+      }
+
+      @include breakpoint("sm-max") {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 109.023%; /* 34.887px */
+        letter-spacing: -1.6px;
+      }
+    }
+  }
+
+  .all-chart-section-all-contnet-alignment {
+    .main-chart {
+      background: #034c43;
+      box-shadow: 0px 13px 50px 0px rgba(0, 0, 0, 0.45);
+
+      .header {
+        padding: 24px 0 40px 0;
+
+        @include breakpoint("md-max") {
+          padding: 60px 36px;
+        }
+        @include breakpoint("sm-max") {
+          padding: 60px 20px;
+        }
+        .grid {
+          display: grid;
+          grid-template-columns: 534px 1fr;
+          align-items: center;
+          gap: 180px;
+
+          @include breakpoint("md-max") {
+            grid-template-columns: 252px 1fr;
+            gap: 80px;
+          }
+          @include breakpoint("sm-max") {
+            grid-template-columns: 1fr;
+            gap: 0;
+          }
+
+          .grid-items:last-child {
+            @include breakpoint("sm-max") {
+              display: none;
+            }
+          }
+
+          h4 {
+            color: #fff;
+            font-size: 74px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 109.023%;
+            letter-spacing: -3.7px;
+
+            @include breakpoint("md-max") {
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 109.023%; /* 39.248px */
+              letter-spacing: -1.8px;
+            }
+
+            @include breakpoint("sm-max") {
+              font-size: 40px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 109.023%; /* 43.609px */
+              letter-spacing: -2px;
+            }
+          }
+
+          .text {
+            p {
+              color: #fff;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 135.523%; /* 18.973px */
+              padding: 24px 0 0 0;
+
+              @include breakpoint("md-max") {
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 135.523%; /* 14.908px */
+              }
+
+              @include breakpoint("sm-max") {
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 135.523%; /* 16.263px */
+                max-width: 272px;
+              }
+            }
+          }
+
+          h6 {
+            color: #fff;
+            font-family: "Monda", sans-serif;
+            text-align: center;
+            margin: 0 0 12px 0;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 126.023%; /* 26.465px */
+            letter-spacing: 0.84px;
+
+            @include breakpoint("md-max") {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+          .two-chart-alignment {
+            display: flex;
+            justify-content: space-between;
+          }
+          .last-text {
+            padding: 10px 0 0 0;
+            span {
+              display: block;
+              color: #fff;
+              text-align: center;
+              font-family: "Be Vietnam Pro", sans-serif;
+              font-size: 6px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 126.023%; /* 7.561px */
+              letter-spacing: -0.06px;
+            }
+          }
+          .chart-center-alignment {
+            display: flex;
+            justify-content: center;
+
+            img {
+              max-width: 141px;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.new-card-design-style {
+  padding: 40px 0 80px 0;
+  overflow: hidden;
+
+
+  @include breakpoint("sm-max") {
+    padding: 0 0 40px 0;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+  
+
+    @include breakpoint("sm-max") {
+      grid-template-columns: repeat(1 , 1fr);
+    }
+
+   
+
+    .grid-items {
+      background: #034c43;
+      box-shadow: 0px 13px 50px 0px rgba(0, 0, 0, 0.45);
+      padding: 30px;
+      border-radius: 8px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .two-chart-alignment {
+        display: flex;
+        padding: 30px 0 0 0;
+        justify-content: center;
+        gap: 100px;
+
+        @include breakpoint("sm-max") {
+          gap: 50px;
+        }
+        .chart-center-alignment {
+          display: flex;
+          justify-content: center;
+
+          img {
+            @include breakpoint("sm-max") {
+              max-width: 100px;
+              width: 100px;
+            }
+          }
+        }
+        h6 {
+          color: #fff;
+          font-family: "Monda", sans-serif;
+          text-align: center;
+          margin: 0 0 12px 0;
+          font-size: 21px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 126.023%; /* 26.465px */
+          letter-spacing: 0.84px;
+
+          @include breakpoint("md-max") {
+            font-size: 12px;
+            line-height: 20px;
+          }
+        }
+      }
+      .last-text {
+        padding: 10px 0 0 0;
+        span {
+          display: block;
+          color: #fff;
+          text-align: center;
+          font-family: "Be Vietnam Pro", sans-serif;
+          font-size: 6px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 126.023%; /* 7.561px */
+          letter-spacing: -0.06px;
+        }
+      }
+
+      h2 {
+        color: #fff;
+        font-size: 60px;
+        font-style: normal;
+        margin: 0 0 23px 0;
+        font-weight: 700;
+        line-height: 109.023%; /* 65.414px */
+        letter-spacing: -3px;
+
+        @include breakpoint("sm-max") {
+          font-size: 32px;
+          letter-spacing: 0;
+          line-height: 40px;
+        }
+      }
+
+      p {
+        color: #fff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135.523%; /* 18.973px */
+
+        @include breakpoint("sm-max") {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .circle-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    @include breakpoint("sm-max") {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  .circle-container::before,
+  .circle-container::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+    z-index: 0;
+  }
+  
+  .circle-container::before {
+    border: 10px solid #D9D9D9;
+    @include breakpoint("sm-max") {
+      border: 6px solid #D9D9D9;
+    }
+  }
+  
+  .circle-container::after {
+    border: 10px solid red;
+    @include breakpoint("sm-max") {
+      border: 6px solid red;
+    } /* Red border that will be revealed */
+    /* Remove the animation property from here */
+  }
+  .animate-border::after {
+    animation: fillRedBorder 3s linear forwards;
+  }
+  
+  .circle-container97 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    @include breakpoint("sm-max") {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
+  .circle-container97::before,
+  .circle-container97::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+    z-index: 0;
+  }
+  
+  .circle-container97::before {
+    border: 10px solid #D9D9D9;
+    @include breakpoint("sm-max") {
+      border: 6px solid #D9D9D9;
+    }
+  }
+  
+  .circle-container97::after {
+    border: 10px solid #00BF64;
+    @include breakpoint("sm-max") {
+      border: 6px solid #00BF64;
+    } /* Red border that will be revealed */
+    /* Remove the animation property from here */
+  }
+  .animate-border97::after {
+    animation: fillGreenBorder97 3s linear forwards;
+  }
+  
+  .text-1 {
+    .title-1{
+      font-size: 36px;
+      font-weight: bolder;
+      @include breakpoint("sm-max") {
+        font-size: 25px;
+        }
+    }
+    font-size: 7px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    @include breakpoint("sm-max") {
+    font-size: 5px;
+    }
+  }
+}
+
+.circle-container2-3 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  @include breakpoint("sm-max") {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+.circle-container2-3::before,
+.circle-container2-3::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+  z-index: 0;
+}
+
+.circle-container2-3::before {
+  border: 10px solid #D9D9D9;
+
+  @include breakpoint("sm-max") {
+    border: 6px solid #D9D9D9;
+  }  /* Initial grey border */
+}
+
+.circle-container2-3::after {
+  border: 10px solid #00BF64;
+  @include breakpoint("sm-max") {
+    border: 6px solid #00BF64;
+  }
+}
+.animate-border2-3::after {
+  animation: fillRedBorder 3s linear forwards;
+}
+
+
+
+.circle-container4-6 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  @include breakpoint("sm-max") {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+.circle-container4-6::before,
+.circle-container4-6::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+  z-index: 0;
+}
+
+.circle-container4-6::before {
+  border: 10px solid #D9D9D9;
+  @include breakpoint("sm-max") {
+    border: 6px solid #D9D9D9;
+  } /* Initial grey border */
+}
+
+.circle-container4-6::after {
+  border: 10px solid #FFDB56;
+  @include breakpoint("sm-max") {
+    border: 6px solid #FFDB56;
+  } /* Red border that will be revealed */
+  /* Remove the animation property from here */
+}
+.animate-border4-6::after {
+  animation: fillYellowBorder 2s ease-in forwards;
+}
+
+
+.circle-container7-8 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  @include breakpoint("sm-max") {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.circle-container7-8::before,
+.circle-container7-8::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+  z-index: 0;
+}
+
+.circle-container7-8::before {
+  border: 10px solid #D9D9D9;
+  @include breakpoint("sm-max") {
+    border: 6px solid #D9D9D9;
+  }
+}
+
+.circle-container7-8::after {
+  border: 10px solid #00BF64;
+  @include breakpoint("sm-max") {
+    border: 6px solid #00BF64;
+  } /* Red border that will be revealed */
+  /* Remove the animation property from here */
+}
+.animate-border7-8::after {
+  animation: fillGreenBorder 3s linear forwards;
+
+}
+.circle-container87 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  @include breakpoint("sm-max") {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.circle-container87::before,
+.circle-container87::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+  z-index: 0;
+}
+
+.circle-container87::before {
+  border: 10px solid #D9D9D9;
+  @include breakpoint("sm-max") {
+    border: 6px solid #D9D9D9;
+  }
+}
+
+.circle-container87::after {
+  border: 10px solid #00BF64;
+  @include breakpoint("sm-max") {
+    border: 6px solid #00BF64;
+  } /* Red border that will be revealed */
+  /* Remove the animation property from here */
+}
+.animate-border87::after {
+  animation: fillGreenBorder87 3s linear forwards;
+}
+
+
+.circle-container16 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  @include breakpoint("sm-max") {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.circle-container16::before,
+.circle-container16::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+  z-index: 0;
+}
+
+.circle-container16::before {
+  border: 10px solid #D9D9D9;
+  @include breakpoint("sm-max") {
+    border: 6px solid #D9D9D9;
+  }
+}
+
+.circle-container16::after {
+  border: 10px solid red;
+  @include breakpoint("sm-max") {
+    border: 6px solid red;
+  } /* Red border that will be revealed */
+  /* Remove the animation property from here */
+}
+.animate-border16::after {
+  animation: fillRedBorder16 3s linear forwards;
+}
+
+.circle-container37 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  @include breakpoint("sm-max") {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.circle-container37::before,
+.circle-container37::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+  z-index: 0;
+}
+
+.circle-container37::before {
+  border: 10px solid #D9D9D9;
+  @include breakpoint("sm-max") {
+    border: 6px solid #D9D9D9;
+  }
+}
+
+.circle-container37::after {
+  border: 10px solid #FFDB56;
+  @include breakpoint("sm-max") {
+    border: 6px solid #FFDB56;
+  } /* Red border that will be revealed */
+  /* Remove the animation property from here */
+}
+.animate-border37::after {
+  animation: fillYellowBorder37 3s linear forwards;
+}
+
+
+.circle-container94 {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  @include breakpoint("sm-max") {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.circle-container94::before,
+.circle-container94::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit; /* Inherit the 50% border-radius from the parent */
+  z-index: 0;
+}
+
+.circle-container94::before {
+  border: 10px solid #D9D9D9;
+  @include breakpoint("sm-max") {
+    border: 6px solid #D9D9D9;
+  }
+}
+
+.circle-container94::after {
+  border: 10px solid #00BF64;
+  @include breakpoint("sm-max") {
+    border: 6px solid #00BF64;
+  } /* Red border that will be revealed */
+  /* Remove the animation property from here */
+}
+.animate-border94::after {
+  animation: fillGreenBorder94 3s linear forwards;
+}
+
+.text-1 {
+  .title-1{
+    font-size: 36px;
+    font-weight: bolder;
+    @include breakpoint("sm-max") {
+      font-size: 25px;
+      }
+  }
+  font-size: 7px;
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  @include breakpoint("sm-max") {
+  font-size: 5px;
+  }
+}
+
+
+

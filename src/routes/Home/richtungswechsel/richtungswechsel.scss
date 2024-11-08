@@ -1,0 +1,185 @@
+@import "../../../../styles/mixins/index.scss";
+
+.richtungswechsel-sapcer {
+  .container {
+    @include breakpoint("sm-max") {
+      padding: 0;
+    }
+  }
+}
+
+.richtungswechsel-all-contnet-alignment {
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20.5px);
+  padding: 61px 106px;
+  margin-top: -300px;
+
+  @include breakpoint("md-max") {
+    padding: 60px 67px;
+    margin-top: -235px;
+  }
+
+  @include breakpoint("sm-max") {
+    padding: 85px 35px;
+    margin-top: -190px;
+  }
+
+  .arrow-text {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    transition: .3s ease-in-out;
+
+    &:hover {
+      transform: translate(0 , 5px);
+      transition: .3s ease-in-out;
+    }
+
+    span {
+      display: block;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 118px 1fr;
+    gap: 355px;
+    padding: 0 0 27px 0;
+
+    @include breakpoint("md-max") {
+      grid-template-columns: 1fr 354px;
+      gap: 20px;
+    }
+
+    @include breakpoint("sm-max") {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 40px;
+      padding: 0 0 43px 0;
+    }
+    .grid-items {
+      p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        @include breakpoint("md-max") {
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          max-width: 95px;
+        }
+      }
+
+      .btn-alignment {
+        display: flex;
+        align-items: center;
+        gap: 44px;
+        padding: 39px 0 0 0;
+
+        @include breakpoint("sm-max") {
+          padding: 23px 0 0 0;
+        }
+
+        button {
+          border: none;
+          cursor: pointer;
+          color: #4b4b4b;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          border-radius: 5px;
+          background: #fff;
+          padding: 18px 32px;
+          transform: translate(0, -3px);
+
+          &:hover {
+            border-radius: 5px;
+            background: #034c43;
+            transition: 0.3s ease-in-out;
+            color: #fff;
+            transform: translate(0, -3px);
+          }
+
+          @include breakpoint("md-max") {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding: 18px 32px;
+          }
+
+          @include breakpoint("sm-max") {
+            padding: 18px 24px;
+            font-size: 12px;
+          }
+        }
+
+        a {
+          display: block;
+          cursor: pointer;
+          color: #fff;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          @include breakpoint("md-max") {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+      }
+
+      span {
+        display: block;
+        color: #fff;
+        max-width: 680px;
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135.523%; /* 18.973px */
+
+        @include breakpoint("md-max") {
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 135.523%; /* 16.263px */
+        }
+
+    
+      }
+
+      h1 {
+        color: #fff;
+        margin: 0 0 23px 0;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 74px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 109.023%; /* 80.677px */
+        letter-spacing: -3.7px;
+
+        @include breakpoint("md-max") {
+          color: #fff;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 109.023%; /* 52.331px */
+          letter-spacing: -2.4px;
+        }
+      }
+    }
+  }
+}

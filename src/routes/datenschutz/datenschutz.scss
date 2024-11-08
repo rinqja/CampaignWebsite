@@ -1,0 +1,140 @@
+@import "../../../styles/mixins/index.scss";
+
+.datenschutz-all-contnet-alignment {
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(22.5px);
+  padding: 108px 130px 160px 130px;
+  margin-top: -550px;
+
+  @include breakpoint("md-max") {
+    padding: 60px 67px;
+    margin-top: -235px;
+  }
+
+  @include breakpoint("sm-max") {
+    padding: 85px 35px;
+    margin-top: -190px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109.023%; /* 80.677px */
+    letter-spacing: -3.7px;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+
+    @include breakpoint("sm-max") {
+      color: #fff;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 48px;
+      font-style: normal;
+      margin: 0 0 16px 0;
+      font-weight: 700;
+      line-height: 109.023%; /* 52.331px */
+      letter-spacing: -2.4px;
+    }
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.523%; /* 27.105px */
+    margin: 0 0 23px 0;
+    @include breakpoint("md-max") {
+      font-size: 16px;
+    }
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 188.168%;
+
+    @include breakpoint("md-max") {
+      font-size: 22px;
+    }
+  }
+  p {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188.168%; /* 30.107px */
+
+    @include breakpoint("md-max") {
+      font-size: 14px;
+    }
+  }
+  ul {
+    list-style: unset;
+    padding-left: 15px;
+
+    li {
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 188.168%; /* 30.107px */
+
+      @include breakpoint("md-max") {
+        font-size: 14px;
+      }
+    }
+  }
+  .reg,
+  .same {
+    padding: 0 0 23px 0;
+  }
+  .con {
+    padding: 0 0 23px 0;
+    p {
+      color: #fff;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 135.523%; /* 27.105px */
+
+      @include breakpoint("md-max") {
+        font-size: 14px;
+      }
+    }
+  }
+  .hin {
+    padding: 0 0 23px 0;
+
+    p {
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 188.168%; /* 30.107px */
+
+      @include breakpoint("md-max") {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .text {
+    padding: 0 0 23px 0;
+    p {
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 188.168%; /* 30.107px */
+
+      @include breakpoint("md-max") {
+        font-size: 14px;
+      }
+    }
+  }
+}

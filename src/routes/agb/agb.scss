@@ -1,0 +1,120 @@
+@import "../../../styles/mixins/index.scss";
+
+
+.agb-box {
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(22.5px);
+  padding: 61px 106px;
+  margin-top: -550px;
+
+  @include breakpoint("md-max") {
+    padding: 60px 67px;
+    margin-top: -235px;
+  }
+
+  @include breakpoint("sm-max") {
+    padding: 85px 35px;
+    margin-top: -190px;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188.168%; /* 28.225px */
+    margin: 0 0 23px 0;
+    @include breakpoint("sm-max") {
+        font-size: 14px;
+        margin: 0 0 16px 0;
+        line-height: 24px;
+      }
+  }
+
+  span {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 188.168%; /* 28.225px */
+    display: block;
+    @include breakpoint("sm-max") {
+        font-size: 14px;
+        line-height: 24px;
+      }
+  }
+
+  ol {
+    list-style: revert-layer;
+    padding-left: 15px;
+    li {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 188.168%; /* 28.225px */
+
+      @include breakpoint("sm-max") {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 188.168%; /* 37.634px */
+    margin: 0 0 23px 0;
+    @include breakpoint("sm-max") {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 0 16px 0;
+    }
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 188.168%; /* 60.214px */
+    margin: 0 0 23px 0;
+  
+    @include breakpoint("sm-max") {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 0 16px 0;
+
+    }
+}
+
+  h1 {
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 109.023%; /* 80.677px */
+    margin: 0 0 23px 0;
+    letter-spacing: -3.7px;
+    text-transform: uppercase;
+
+    @include breakpoint("sm-max") {
+        color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 48px;
+font-style: normal;
+margin: 0 0 16px 0;
+font-weight: 700;
+line-height: 109.023%; /* 52.331px */
+letter-spacing: -2.4px;
+    }
+  }
+}
+
+.top-kontact-alignment {
+  padding: 190px 0 0 0;
+}

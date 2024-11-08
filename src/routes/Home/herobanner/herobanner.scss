@@ -1,0 +1,28 @@
+@import '../../../../styles/mixins/index.scss';
+
+.hero-banner {
+    background-image: url('../../../assets/imges/herobanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 890px;
+    
+
+    @include breakpoint("md-max") {
+        height: 529px;
+        background-image: url('../../../assets/imges/tab-banner.png');
+    }
+    @include breakpoint("sm-max") {
+        height: 529px;
+        background-image: url('../../../assets/imges/mobile-banner.png');
+    }
+
+    .container {
+        @include breakpoint("md-max") {
+            padding: 0 50px;
+        }
+        @include breakpoint("sm-max") {
+            padding: 0 20px;
+        }
+    }
+}

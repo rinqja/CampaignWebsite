@@ -1,0 +1,203 @@
+@import "../../../../styles/mixins/index.scss";
+
+.richtungs-section-all-contnet-alignment {
+  .grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+    @include breakpoint("sm-max") {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-items:last-child {
+      background-color: #fff;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    .grid-items {
+      position: relative;
+      height: 100%;
+
+      .box {
+        max-width: 590px;
+        margin: 0 auto;
+        position: relative;
+
+        @include breakpoint("md-max") {
+          padding: 50px;
+        }
+
+        @include breakpoint("sm-max") {
+          padding: 100px 50px 40px 50px;
+        }
+
+        .box-image {
+          position: absolute;
+          top: -8%;
+          right: -8%;
+
+          @include breakpoint("md-max") {
+            top: 0%;
+            right: 0;
+          }
+
+          @include breakpoint("sm-max") {
+            top: 3%;
+            right: 3%;
+          }
+
+          img {
+            @include breakpoint("md-max") {
+              max-width: 140px;
+            }
+          }
+        }
+
+        h2 {
+          position: relative;
+          color: #4b4b4b;
+          font-size: 80px;
+          font-style: normal;
+          margin: 0 0 84px 0;
+          font-weight: 700;
+          line-height: 95.023%; /* 76.018px */
+          letter-spacing: -3.2px;
+
+          @include breakpoint("md-max") {
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 95.023%; /* 45.611px */
+            letter-spacing: -1.92px;
+            margin: 0 0 25px 0;
+          }
+        }
+        p {
+          margin: 0 0 20px 0;
+        }
+        span,
+        p {
+          display: block;
+          color: #869696;
+          font-size: 16px;
+          font-style: italic;
+          font-weight: 500;
+          line-height: 24px; /* 17.643px */
+          letter-spacing: -0.56px;
+
+          @include breakpoint("md-max") {
+            font-size: 13px;
+            line-height: 20px; /* 13.862px */
+            letter-spacing: -0.44px;
+          }
+        }
+      }
+
+      .imguppertext {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        .spacer {
+          padding: 78px 30px;
+
+          @include breakpoint("md-max") {
+            padding: 50px 30px;
+          }
+          .left-content-alignment {
+            padding-left: 55px;
+            display: flex;
+            align-items: center;
+            padding-top: 30px;
+            gap: 11px;
+
+            @include breakpoint("md-max") {
+              padding-left: 0;
+            }
+            .line {
+              width: 40px;
+              background: #034c43;
+              height: 1px;
+
+              @include breakpoint("md-max") {
+                width: 20px;
+              }
+            }
+
+            span {
+              display: block;
+              color: #fff;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 900;
+              line-height: 95.023%; /* 19.005px */
+              letter-spacing: -0.8px;
+
+              @include breakpoint("md-max") {
+                font-size: 16px;
+                letter-spacing: 0;
+              }
+            }
+          }
+          .text-style {
+            h6 {
+              color: #fff;
+              font-size: 40px;
+              font-style: normal;
+              font-weight: 900;
+              line-height: 95.023%;
+              letter-spacing: -1.6px;
+              padding-left: 45px;
+              margin-top: -30px;
+
+              @include breakpoint("md-max") {
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0;
+                padding-left: 0;
+              }
+            }
+            h5 {
+              color: #034c43;
+              font-size: 120px;
+              font-style: normal;
+              margin: 0;
+              font-weight: 900;
+              line-height: 89px;
+              letter-spacing: -4.8px;
+            }
+          }
+        }
+      }
+      .img {
+        img[alt="ManImage"] {
+          @include breakpoint("sm-max") {
+            display: none;
+          } 
+        }
+
+        img[alt="MobileManImage"] {
+          display: none;
+
+          @include breakpoint("sm-max") {
+            display: block;
+          }
+        }
+        img {
+          display: block;
+          width: 100%;
+          height: 882px;
+          object-position: right;
+          object-fit: cover;
+
+          @include breakpoint("md-max") {
+            height: 617px;
+          }
+        }
+      }
+    }
+  }
+}

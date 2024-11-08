@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: #034C43;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p:last-child {
+    margin: 0;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+
+input {
+    font-family: 'Inter', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width:576px) {
+    input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 16px !important;
+}
+input[type='text'],
+input[type='number'],
+textarea {
+  font-size: 16px !important;
+}
+}

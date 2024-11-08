@@ -1,0 +1,92 @@
+@import "../../../../styles/mixins/index.scss";
+
+header {
+  padding: 30px 0 0 0;
+  .header-alignment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      img {
+        cursor: pointer;
+
+        @include breakpoint("sm-max") {
+          max-width: 145px;
+        }
+      }
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+
+      @include breakpoint("md-max") {
+        gap: 20px;
+      }
+
+      a:last-child {
+        @include breakpoint("sm-max") {
+          display: block;
+        }
+      }
+      a {
+        display: block;
+        color: #fff;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        cursor: pointer;
+
+        @include breakpoint("md-max") {
+          color: #fff;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+
+        @include breakpoint("sm-max") {
+          display: none;
+        }
+      }
+
+      button {
+        border: none;
+        cursor: pointer;
+        color: #4b4b4b;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 5px;
+        background: #fff;
+        padding: 8px 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          border-radius: 5px;
+          background: #034c43;
+          transition: 0.3s ease-in-out;
+          color: #fff;
+          transform: translate(0, -3px);
+        }
+
+        @include breakpoint("md-max") {
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          padding: 8px 20px;
+        }
+
+        @include breakpoint("sm-max") {
+          padding: 8px 17px;
+        }
+      }
+    }
+  }
+}
