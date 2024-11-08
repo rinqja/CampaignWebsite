@@ -7,7 +7,7 @@ import RedIcon3 from "../../../assets/imges/three.png";
 import RedIcon4 from "../../../assets/imges/four.png";
 import AnimatedSection from "../../../components/Animation";
 
-export default function Diesesection() {
+export default function AboutSection() {
   return (
     <div className="diesesection-all-contnet-alignment">
       <div className="container2">

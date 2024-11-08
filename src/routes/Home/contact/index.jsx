@@ -1,6 +1,6 @@
 import React from "react";
 import "./kontact.scss";
-export default function Kontact() {
+export default function ContactSection() {
   return (
     <div>
       <div className="container8" id="kontact">

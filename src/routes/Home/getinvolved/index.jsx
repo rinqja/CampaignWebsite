@@ -3,7 +3,7 @@ import "./richtungssection.scss";
 import ManImage from "../../../assets/imges/man.png";
 import MobileManImage from "../../../assets/imges/mobile-men.png";
 import BoxImage from "../../../assets/imges/box.svg";
-export default function Richtungssection() {
+export default function GetInvolvedSection() {
   return (
     <div className="richtungs-section-all-contnet-alignment" id="uberuns">
       <div className="grid">

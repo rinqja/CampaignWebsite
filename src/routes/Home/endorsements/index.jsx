@@ -3,7 +3,7 @@ import "./kundendie.scss";
 import ProfileImage from "../../../assets/imges/patrick.svg";
 import ProfileImage2 from "../../../assets/imges/patrickg.svg";
 import ProfileImage3 from "../../../assets/imges/green.svg"
-export default function Kundendie() {
+export default function EndorsementsSection() {
   return (
     <div>
       <div className="Kundendie-section-all-contnet-alignment" id="referenzen">

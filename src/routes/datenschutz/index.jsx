@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./datenschutz.scss";
 import Herobanner from "../Home/herobanner";
-import Kontact from "../Home/kontact";
+import Kontact from "../Home/contact";
 export default function Datenschutz() {
   useEffect(() => {
     window.scrollTo({

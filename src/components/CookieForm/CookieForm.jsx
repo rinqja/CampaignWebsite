@@ -36,7 +36,6 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
     Cookies.remove("gac");
     Cookies.set("first_time", false, { expires: 7 });
     setShow(false);
-    disableScroll.off();
   };
 
   const aceptCookie = () => {

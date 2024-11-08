@@ -4,7 +4,7 @@ import "./richtungswechselsection.scss";
 import TrueIcon from "../../../assets/icons/true-two.svg";
 import ArrowIcon from "../../../assets/icons/arrow.svg";
 
-export default function Richtungswechselsection() {
+export default function NewsSection() {
 
   const playerContainerRef = useRef(null);
   

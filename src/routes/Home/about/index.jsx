@@ -1,7 +1,7 @@
 import React from "react";
 import "./richtungswechsel.scss";
 import ArrowIcon from "../../../assets/icons/arrow.svg";
-export default function Richtungswechsel() {
+export default function AboutSection() {
   return (
     <div className="richtungswechsel-sapcer">
       <div className="container">
