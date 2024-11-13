@@ -1,5 +1,5 @@
 import React from "react";
-import "./kundendie.scss";
+import "./endorsements.scss";
 import ProfileImage from "../../../assets/imges/patrick.svg";
 import ProfileImage2 from "../../../assets/imges/patrickg.svg";
 import ProfileImage3 from "../../../assets/imges/green.svg"

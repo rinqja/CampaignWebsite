@@ -10,18 +10,18 @@ export default function NewsSection() {
   
   const [showAll, setShowAll] = useState(false);
 
-const iconGrids = [
-  { text: "Zielgruppenorientierung: Die Leads, die du selbst generierst, passen oft besser zu deinem Angebot, da sie aufgrund deiner spezifischen Inhalte und Marketingmaßnahmen zu dir gefunden haben." },
-  { text: "Kosteneffizienz: Langfristig gesehen, kann das Generieren eigener Leads kosteneffizienter sein, da du nicht ständig für jeden neuen Lead zahlen musst." },
-  { text: "Exklusivität: Diese Leads gehören nur dir. Bei gekauften Leads besteht die Gefahr, dass diese mehrfach verkauft und von mehreren Unternehmen kontaktiert werden." },
-  { text: "Bessere Kundenbeziehung: Da die Leads schon mit deiner Marke vertraut sind, können Beziehungen schneller und tiefer aufgebaut werden." },
-  { text: "Transparentere Daten: Du weißt genau, woher deine Leads kommen und wie sie generiert wurden, was dir wertvolle Einblicke in deine Zielgruppe gibt." },
-  { text: "Flexibilität: Du kannst deine Strategien und Kampagnen jederzeit anpassen, um bessere Ergebnisse zu erzielen, anstatt von Dritten abhängig zu sein." },
-  { text: "Nachhaltigkeit: Mit einer soliden Strategie zur Lead-Generierung baust du kontinuierlich und nachhaltig an deiner Kundenbasis." },
-  { text: "Höhere Kundenbindung: Selbstgenerierte Leads tendieren dazu, loyalere Kunden zu werden, da sie aus echtem Interesse und nicht durch Massenmarketing zu dir gekommen sind." },
-  { text: "Bessere Vorqualifizierung: Du kannst den Prozess so steuern, dass du genau die Leads ansprichst, die am besten zu deinen Produkten oder Dienstleistungen passen." },
-  { text: "Markenschutz: Da du die Kontrolle über den gesamten Prozess hast, stellst du sicher, dass deine Marke immer im besten Licht präsentiert wird." }
-];
+  const iconGrids = [
+    { text: "Community Engagement: Our recent town hall meetings have shown strong support for our education reform initiatives, with over 500 residents participating in productive discussions." },
+    { text: "Infrastructure Development: Successfully secured funding for three new community centers, demonstrating our commitment to creating spaces for community gatherings and youth programs." },
+    { text: "Healthcare Initiative: Launched a new partnership with local medical facilities to improve access to preventive care services for all residents." },
+    { text: "Economic Growth: Implemented new programs supporting local businesses, resulting in the creation of 200+ new jobs in our district." },
+    { text: "Environmental Action: Initiated green energy projects that will reduce our community's carbon footprint by 30% over the next five years." },
+    { text: "Public Safety: Enhanced community policing programs have led to a significant decrease in neighborhood crime rates." },
+    { text: "Education Excellence: Secured additional funding for after-school programs, benefiting over 1,000 students in our district." },
+    { text: "Senior Services: Expanded support services for elderly residents, including new transportation and home care assistance programs." },
+    { text: "Youth Development: Launched new vocational training programs in partnership with local businesses to create career opportunities for young adults." },
+    { text: "Fiscal Responsibility: Maintained balanced budgets while increasing investment in essential community services." }
+  ];
 
 
   const iconGridsToShow = showAll ? iconGrids : iconGrids.slice(0, 4);
@@ -44,7 +44,7 @@ const iconGrids = [
   return (
     <div className="richtungswechsel-section-all-contnet-alignment">
        <div className="text">
-          <h4>WARUM SELBSTGENERIERTE LEADS UNSCHLAGBAR SIND</h4>
+          <h4>LATEST UPDATES FROM THE CAMPAIGN</h4>
           <div className="line"></div>
 
         </div>
@@ -61,7 +61,7 @@ const iconGrids = [
     </iframe>
   </div>
   <div className="header-mobile">
-          <h5>MIT RICHTUNGSWECHSEL ERHÄLST DU</h5>
+  <h5>CAMPAIGN HIGHLIGHTS</h5>
         </div>
 </div>
         {/* <div className="line"></div> */}
@@ -92,8 +92,8 @@ Statt Leads zu kaufen, warum nicht besser die Kraft deiner eigenen Marke nutzen?
           </span>
         </div> */}
         <div className="heading">
-          <h5>MIT RICHTUNGSWECHSEL ERHÄLST DU</h5>
-         </div>
+        <h5>CAMPAIGN HIGHLIGHTS</h5>
+        </div>
         
         <div className="icon-grid-container">
         {iconGridsToShow.map((grid, index) => (
@@ -105,7 +105,7 @@ Statt Leads zu kaufen, warum nicht besser die Kraft deiner eigenen Marke nutzen?
       </div>
     
         <div onClick={() => setShowAll(true)}className="arrow-design">
-          <span>mehr erfahren</span>
+          <span>View More Updates</span>
           <img src={ArrowIcon} alt="ArrowIcon" />
        
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./richtungswechsel.scss";
+import "./about.scss";
 import ArrowIcon from "../../../assets/icons/arrow.svg";
 export default function AboutSection() {
   return (
@@ -8,35 +8,32 @@ export default function AboutSection() {
         <div className="richtungswechsel-all-contnet-alignment">
           <div className="grid">
             <div className="grid-items">
-              <p>RICHTUNGS WECHSEL</p>
+              <p>LEADERSHIP FOR CHANGE</p>
             </div>
             <div className="grid-items">
-              <h1>VERTRIEB NEU DEFINIERT!</h1>
+              <h1>BUILDING A BETTER FUTURE TOGETHER</h1>
               <span>
-                Wir zeigen wir dir, wie du als Finanzdienstleister durch die
-                Implementierung hochmoderner Automatisierungstechniken in der
-                Lage bist, kontinuierlich und hervorragend erstklassige
-                Empfehlungen zu generieren.
+              As your deputy candidate, I am committed to bringing meaningful change 
+    through innovative policies and dedicated public service. With 15 years 
+    of experience in community development and policy making.
               </span>
               <span>
-                Darüber hinaus wirst du Schritt für Schritt lernen, wie du
-                digitale Strategien und innovative Marketingansätze gezielt
-                einsetzt, um eine konstante Flut von neuen Kunden zu gewinnen.
-                Durch die Kombination dieser Maßnahmen wirst du nicht nur
-                bestehende Kunden besser betreuen, sondern auch deinen Umsatz
-                vervielfachen können.
+                My track record shows consistent dedication to improving education, 
+                healthcare accessibility, and economic opportunities for all citizens. 
+                Together, we can build a stronger, more prosperous community that
+                works for everyone.
               </span>
               <div className="btn-alignment">
                 <a href="#kontact">
-                  <button>Erstgespräch vereinbaren</button>
+                  <button>Join Our Campaign</button>
                 </a>
-                <a href="#uberuns">Über uns</a>
+                <a href="#uberuns">About Me</a>
               </div>
             </div>
           </div>
           <a href="#Leistungen">
             <div className="arrow-text">
-              <span>mehr erfahren</span>
+              <span>click to see more</span>
               <img src={ArrowIcon} alt="ArrowIcon" />
             </div>
           </a>

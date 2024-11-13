@@ -1,5 +1,5 @@
 import React from "react";
-import "./richtungssection.scss";
+import "./getinvolved.scss";
 import ManImage from "../../../assets/imges/man.png";
 import MobileManImage from "../../../assets/imges/mobile-men.png";
 import BoxImage from "../../../assets/imges/box.svg";

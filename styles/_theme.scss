@@ -1,3 +1,17 @@
 :root {
-  --primary-color:#000;
+  --primary-color: #{$primary-blue};
+  --primary-dark: #{$primary-dark};
+  --primary-light: #{$primary-light};
+  
+  --secondary-white: #{$secondary-white};
+  --secondary-black: #{$secondary-black};
+  --secondary-gray: #{$secondary-gray};
+  
+  --text-primary: #{$text-primary};
+  --text-secondary: #{$text-secondary};
+  --text-light: #{$text-light};
+  
+  --bg-primary: #{$bg-primary};
+  --bg-secondary: #{$bg-secondary};
+  --bg-dark: #{$bg-dark};
 }

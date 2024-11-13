@@ -204,7 +204,7 @@ export default function Chartsection() {
       <div className="chart-section-all-contnet-alignment" id="Leistungen">
         <div className="container4">
           <div className="title">
-            <h4>UNSERE LÖSUNG FÜR MAXIMALEN ERFOLG</h4>
+            <h4>CAMPAIGN ACHIEVEMENTS</h4>
             <div className="line"></div>
           </div>
         </div>
@@ -267,40 +267,33 @@ export default function Chartsection() {
               >
                 <div className="grid-items">
                   <div>
-                    <h2>SCHRITT 1</h2>
-                    <p>
-                      Zunächst setzen wir uns mit deinen aktuellen
-                      Verkaufsmethoden auseinander. Wir identifizieren veraltete
-                      Methoden und ersetzen diese durch effektivere. Du bekommst
-                      von uns neue, moderne und erfolgreiche Skripte an die
-                      Hand, die auf deine Zielgruppe und dein Angebot
-                      maßgeschneidert sind. Durch unsere gezielten Module, sowie
-                      den Live-Calls wirst du mit unseren erfolgreich in der
-                      Praxis angewandten Skripten deine Beratungsqualität auf
-                      ein neues Level anheben und deinen Umsatz bei gleicher
-                      Terminkapazität mind. verdoppeln.
-                    </p>
+                  <h2>COMMUNITY ENGAGEMENT</h2>
+              <p>
+                Our community outreach programs have shown remarkable success in engaging citizens. 
+                Through regular town halls and community forums, we've increased public participation 
+                in local governance by 200%. Our innovative approach to citizen engagement has created 
+                stronger connections between government and residents.
+              </p>
                   </div>
                   <div>
                     <div className="two-chart-alignment">
                       <div>
-                        <h6>Markt</h6>
-                        <div ref={circleContainerRef} className={`circle-container ${animate ? 'animate-border' : ''}`}>
-                        <div class="text-1"><div className="title-1">0-1 </div>Empfehlungen pro Kunde</div>
-                        </div>  
+                      <h6>Previous Term</h6>
+                  <div ref={circleContainerRef} className={`circle-container ${animate ? 'animate-border' : ''}`}>
+                    <div class="text-1"><div className="title-1">25%</div>Community Participation</div>
+                  </div> 
                       </div>
                       <div>
-                        <h6>Richtungswechsel</h6>
-                        <div ref={circleContainerRef} className={`circle-container7-8 ${animate ? 'animate-border4-6' : ''}`}>
-                        <div class="text-1"><div className="title-1">2-3 </div>Empfehlungen pro Kunde</div>
-                        </div>  
+                      <h6>Current Progress</h6>
+                  <div ref={circleContainerRef} className={`circle-container7-8 ${animate ? 'animate-border4-6' : ''}`}>
+                    <div class="text-1"><div className="title-1">75%</div>Community Participation</div>
+                  </div>  
                       </div>
                     </div>
                     <div className="last-text">
-                      <span>
-                        *Angaben aus + 1.000 befragten selbstständigen
-                        Finanzberatern (mwd)
-                      </span>
+                    <span>
+                  *Based on community engagement statistics 2022-2024
+                </span>
                     </div>
                   </div>
                 </div>
@@ -312,40 +305,72 @@ export default function Chartsection() {
               >
                 <div className="grid-items">
                   <div>
-                    <h2>SCHRITT 2</h2>
-                    <p>
-                      Das Empfehlungsmarketing wird vollständig mit unserem
-                      „Neugiererzeuger“ automatisiert, digitalisiert und
-                      Datenschutzkonform eingesetzt, um 2-3 warme Empfehlungen
-                      zu generieren. Das bedeutet keine Zettel mehr, welcher
-                      Kunde ausfüllen muss oder dieser einfach Nummern
-                      weitergeben soll, ohne vorher mit den Empfohlenen
-                      gesprochen zu haben. Diese Methode sorgt nicht nur für
-                      deinen vollen Terminkalender, sondern schafft dir auch
-                      eine neue Identität in deinem Unternehmen, welche dich von
-                      nun an "Empfehlenswert" macht.
-                    </p>
+                  <h2>ECONOMIC GROWTH</h2>
+              <p>
+                Our economic initiatives have created significant job growth and business development. 
+                Through targeted programs and reduced bureaucracy, we've helped local businesses thrive 
+                and attract new investments to our community. Small business growth has exceeded 
+                expectations, with new startups increasing by 150%.
+              </p>
                   </div>
                   <div>
-                    <div className="two-chart-alignment">
-                      <div>
-                        <h6>Markt</h6>
-                        <div ref={circleContainerRef2} className={`circle-container4-6 ${animate ? 'animate-border4-6' : ''}`}>
-                        <div class="text-1"><div className="title-1">4-6 </div>Abschlüsse aus 10 Terminen</div>
-                        </div>  
-                      </div>
-                      <div>
-                        <h6>Richtungswechsel</h6>
-                        <div ref={circleContainerRef2} className={`circle-container7-8 ${animate ? 'animate-border7-8' : ''}`}>
-                        <div class="text-1"><div className="title-1">7-8 </div>Abschlüsse aus 10 Terminen</div>
-                        </div>  
-                      </div>
-                    </div>
+                  <div className="two-chart-alignment">
+                <div>
+                  <h6>Previous Term</h6>
+                  <div ref={circleContainerRef2} className={`circle-container4-6 ${animate ? 'animate-border4-6' : ''}`}>
+                    <div class="text-1"><div className="title-1">3%</div>Economic Growth Rate</div>
+                  </div>  
+                </div>
+                <div>
+                  <h6>Current Progress</h6>
+                  <div ref={circleContainerRef2} className={`circle-container7-8 ${animate ? 'animate-border7-8' : ''}`}>
+                    <div class="text-1"><div className="title-1">8%</div>Economic Growth Rate</div>
+                  </div>  
+                </div>
+              </div>
                     <div className="last-text">
-                      <span>
-                        *Angaben aus + 1.000 befragten selbstständigen
-                        Finanzberatern (mwd)
-                      </span>
+                    <span>
+                  *Based on local economic indicators 2022-2024
+                </span>
+                    </div>
+                  </div>
+                </div>
+              </AnimatedSection>
+              
+              <AnimatedSection
+                animationType="fade-up"
+                duration={1000}
+                delay={400}
+              >
+                <div className="grid-items">
+                  <div>
+                  <h2>ECONOMIC GROWTH</h2>
+              <p>
+                Our economic initiatives have created significant job growth and business development. 
+                Through targeted programs and reduced bureaucracy, we've helped local businesses thrive 
+                and attract new investments to our community. Small business growth has exceeded 
+                expectations, with new startups increasing by 150%.
+              </p>
+                  </div>
+                  <div>
+                  <div className="two-chart-alignment">
+                <div>
+                  <h6>Previous Term</h6>
+                  <div ref={circleContainerRef2} className={`circle-container4-6 ${animate ? 'animate-border4-6' : ''}`}>
+                    <div class="text-1"><div className="title-1">3%</div>Economic Growth Rate</div>
+                  </div>  
+                </div>
+                <div>
+                  <h6>Current Progress</h6>
+                  <div ref={circleContainerRef2} className={`circle-container7-8 ${animate ? 'animate-border7-8' : ''}`}>
+                    <div class="text-1"><div className="title-1">8%</div>Economic Growth Rate</div>
+                  </div>  
+                </div>
+              </div>
+                    <div className="last-text">
+                    <span>
+                  *Based on local economic indicators 2022-2024
+                </span>
                     </div>
                   </div>
                 </div>
@@ -353,177 +378,37 @@ export default function Chartsection() {
               <AnimatedSection
                 animationType="fade-up"
                 duration={1000}
-                delay={600}
+                delay={400}
               >
                 <div className="grid-items">
                   <div>
-                    <h2>SCHRITT 3</h2>
-                    <p>
-                      Du erhältst deine eigene Landingpage, um Vertrauen mit
-                      deinen potenziellen Kunden und Vertriebspartnern aufbauen
-                      zu können. Darüber hinaus wirst du lernen, wie du durch
-                      gezielte Marketing- und Werbemaßnahmen mehr Aufmerksamkeit
-                      auf dich und deine Angebote lenkst. Wir werden auch deine
-                      Online-Präsenz optmieren, um dich im Internet besser
-                      sichtbar zu machen, um neue potenzielle Kunden zu
-                      erreichen. Du wirst dir dadurch deinen eigenen
-                      Lead-Generator aufbauen. Und das beste daran: Die Leads
-                      werden durch unsere Strategie von selbst bezahlt.
-                    </p>
+                  <h2>ECONOMIC GROWTH</h2>
+              <p>
+                Our economic initiatives have created significant job growth and business development. 
+                Through targeted programs and reduced bureaucracy, we've helped local businesses thrive 
+                and attract new investments to our community. Small business growth has exceeded 
+                expectations, with new startups increasing by 150%.
+              </p>
                   </div>
                   <div>
-                    <div className="two-chart-alignment">
-                      <div>
-                        <h6>Markt</h6>
-                        <div ref={circleContainerRef1} className={`circle-container16 ${animate ? 'animate-border16' : ''}`}>
-                        <div class="text-1"><div className="title-1">16%</div>Zeit für gewinnbringende <br />Tätigkeiten</div>
-                        </div>  
-                      </div>
-                      <div>
-                        <h6>Richtungswechsel</h6>
-                        <div ref={circleContainerRef1} className={`circle-container7-8 ${animate ? 'animate-border7-8' : ''}`}>
-                        <div class="text-1"><div className="title-1">79%</div>Zeit für gewinnbringende <br />Tätigkeiten</div>
-                        </div>  
-                      </div>
-                    </div>
-                    <div className="last-text">
-                      <span>
-                        *Angaben aus + 1.000 befragten selbstständigen
-                        Finanzberatern (mwd)
-                      </span>
-                    </div> 
-                  </div>
+                  <div className="two-chart-alignment">
+                <div>
+                  <h6>Previous Term</h6>
+                  <div ref={circleContainerRef2} className={`circle-container4-6 ${animate ? 'animate-border4-6' : ''}`}>
+                    <div class="text-1"><div className="title-1">3%</div>Economic Growth Rate</div>
+                  </div>  
                 </div>
-              </AnimatedSection>
-              <AnimatedSection
-                animationType="fade-up"
-                duration={1000}
-                delay={700}
-              >
-                <div className="grid-items">
-                  <div>
-                    <h2>SCHRITT 4</h2>
-                    <p>
-                      Durch eine eigene digitale Akademie werden neue
-                      Vertriebspartner mit neuen und zeitgemäßen Methoden
-                      rekrutiert und eingearbeitet. Hier werden die
-                      grundlegenden Skills des jeweiligen Unternehmens mit
-                      implementiert, aber auch Freiraum geschaffen, um die
-                      Unterschrift des Unternehmers zu erkennen und die besten
-                      Skills zu duplizieren. Fortschritte der Einarbeitung
-                      können erkannt werden. Somit bleibt der Führungskraft mehr
-                      Zeit für Umsatz, zudem wird vermieden auch in Zukunft
-                      gewisse Themen zu wiederholen. Das sorgt für gute Stimmung
-                      im Team, Effizienz und eine erfolgreiche Einarbeitung in
-                      die Systeme.
-                    </p>
-                  </div>
-                  <div>
-                    <div className="two-chart-alignment">
-                      <div>
-                        <h6>Markt</h6>
-                        <div ref={circleContainerRef3} className={`circle-container16 ${animate ? 'animate-border16' : ''}`}>
-                        <div class="text-1"><div className="title-1">20%</div>Sichtbarkeit</div>
-                        </div> 
-                      </div>
-                      <div>
-                        <h6>Richtungswechsel</h6>
-                        <div ref={circleContainerRef3} className={`circle-container94 ${animate ? 'animate-border94' : ''}`}>
-                        <div class="text-1"><div className="title-1">94%</div>Sichtbarkeit</div>
-                        </div> 
-                      </div>
-                    </div>
-                    <div className="last-text">
-                      <span>
-                        *Angaben aus + 1.000 befragten selbstständigen
-                        Finanzberatern (mwd)
-                      </span>
-                    </div>
-                  </div>
+                <div>
+                  <h6>Current Progress</h6>
+                  <div ref={circleContainerRef2} className={`circle-container7-8 ${animate ? 'animate-border7-8' : ''}`}>
+                    <div class="text-1"><div className="title-1">8%</div>Economic Growth Rate</div>
+                  </div>  
                 </div>
-              </AnimatedSection>
-              <AnimatedSection
-                animationType="fade-up"
-                duration={1000}
-                delay={800}
-              >
-                <div className="grid-items">
-                  <div>
-                    <h2>SCHRITT 5</h2>
-                    <p>
-                      Aus Dir wird ein Unternehmer, indem du nicht mehr im
-                      Unternehmen arbeitest, sondern ausschließlich am
-                      Unternehmen. Durch automatisierte Kundengewinnung- und
-                      betreuung, Vertriebspartner Akquise und Einarbeitung baust
-                      du dir Sachwerte im 7-stelligen Betrag auf. Kanzleien und
-                      Beratungen werden zu Lifestyle- Treffpunkten umgestaltet
-                      und die Zusammenarbeit mit Vertriebspartnern wird zu einer
-                      Leidenschaft. Vertrieb und Verkauf gewinnt eine neue
-                      Bedeutung und bekommt eine ganz neue Atmosphäre.
-                    </p>
-                  </div>
-                  <div>
-                    <div className="two-chart-alignment">
-                      <div>
-                        <h6>Markt</h6>
-                        <div ref={circleContainerRef4} className={`circle-container37 ${animate ? 'animate-border37' : ''}`}>
-                        <div class="text-1"><div className="title-1">37%</div>Erfolgswahrscheinlichkeit <br />neuer Vertriebspartner</div>
-                        </div> 
-                      </div>
-                      <div>
-                        <h6>Richtungswechsel</h6>
-                        <div ref={circleContainerRef4} className={`circle-container87 ${animate ? 'animate-border87' : ''}`}>
-                        <div class="text-1"><div className="title-1">87%</div>Erfolgswahrscheinlichkeit <br />neuer Vertriebspartner</div>
-                        </div> 
-                      </div>
-                    </div>
+              </div>
                     <div className="last-text">
-                      <span>
-                        *Angaben aus + 1.000 befragten selbstständigen
-                        Finanzberatern (mwd)
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </AnimatedSection>
-              <AnimatedSection
-                animationType="fade-up"
-                duration={1000}
-                delay={900}
-              >
-                <div className="grid-items">
-                  <div>
-                    <h2>SCHRITT 6</h2>
-                    <p>
-                      Das Geheimnis für deinen unternehmerischen und
-                      persönlichen Erfolg ist das richtige Mindset. Es hilft
-                      dir, deine Ziele klar zu definieren, Hindernisse zu
-                      überwinden und dein volles Potenzial auszuschöpfen. Dabei
-                      wirst du trotz auftretender Widrigkeiten,
-                      unvorhergesehener Herausforderungen, vermeintlicher
-                      Rückschläge stets deinem inneren Kompass vertrauen können.
-                    </p>
-                  </div>
-                  <div>
-                    <div className="two-chart-alignment">
-                      <div>
-                        <h6>Markt</h6>
-                        <div ref={circleContainerRef5} className={`circle-container37 ${animate ? 'animate-border37' : ''}`}>
-                        <div class="text-1"><div className="title-1">41%</div>Emotionale Intelligenz <br />und Resilienz</div>
-                        </div> 
-                      </div>
-                      <div>
-                        <h6>Richtungswechsel</h6>
-                        <div ref={circleContainerRef5} className={`circle-container97 ${animate ? 'animate-border97' : ''}`}>
-                        <div class="text-1"><div className="title-1">97%</div>Emotionale Intelligenz <br />und Resilienz</div>
-                        </div> 
-                      </div>
-                    </div>
-                    <div className="last-text">
-                      <span>
-                        *Angaben aus + 1.000 befragten selbstständigen
-                        Finanzberatern (mwd)
-                      </span>
+                    <span>
+                  *Based on local economic indicators 2022-2024
+                </span>
                     </div>
                   </div>
                 </div>
