@@ -53,7 +53,7 @@ export default function NewsSection() {
       <div className="video-wrapper">
   <div className="video-center">
     <iframe 
-      src="https://player.vimeo.com/video/917874891?badge=0&amp;player_id=0&amp;app_id=58479&amp;background=0" 
+      src="https://player.vimeo.com/video/1030024639?h=e9d9e42d23" 
       frameborder="0" 
       allow="fullscreen; picture-in-picture" 
       style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} 
