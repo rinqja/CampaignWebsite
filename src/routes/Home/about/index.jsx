@@ -11,29 +11,29 @@ export default function AboutSection() {
               <p>LEADERSHIP FOR CHANGE</p>
             </div>
             <div className="grid-items">
-              <h1>BUILDING A BETTER FUTURE TOGETHER</h1>
+              <h1>NDËRTOJMË SË BASHKU NJË TË ARDHMJE MË TË MIRË</h1>
               <span>
-              As your deputy candidate, I am committed to bringing meaningful change 
-    through innovative policies and dedicated public service. With 15 years 
-    of experience in community development and policy making.
+              Si kandidati juaj për deputet, jam i përkushtuar
+              të sjell ndryshime domethënëse nëpërmjet politikave inovative 
+              dhe shërbimit publik të dedikuar. Me 15 vjet përvojë në zhvillimin e 
+              komunitetit dhe hartimin e politikave, rezultatet e mia tregojnë përkushtim 
+              të vazhdueshëm në përmirësimin e arsimit, aksesit në kujdesin shëndetësor 
+              dhe mundësive ekonomike për të gjithë qytetarët.
               </span>
               <span>
-                My track record shows consistent dedication to improving education, 
-                healthcare accessibility, and economic opportunities for all citizens. 
-                Together, we can build a stronger, more prosperous community that
-                works for everyone.
+              Së bashku, mund të ndërtojmë një komunitet më të fortë dhe më të begatë që punon për secilin prej nesh.
               </span>
               <div className="btn-alignment">
                 <a href="#kontact">
-                  <button>Join Our Campaign</button>
+                  <button>Bashkohu me kampanjenë tonë</button>
                 </a>
-                <a href="#uberuns">About Me</a>
+                <a href="#uberuns">Rreth meje</a>
               </div>
             </div>
           </div>
           <a href="#Leistungen">
             <div className="arrow-text">
-              <span>click to see more</span>
+              <span>Klikoni për të parë më shumë</span>
               <img src={ArrowIcon} alt="ArrowIcon" />
             </div>
           </a>

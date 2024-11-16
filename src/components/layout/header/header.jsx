@@ -16,12 +16,12 @@ export default function Header() {
             </NavLink>
           </div>
           <nav>
-            <a href="#about">About</a>
-            <a href="#issues">Issues</a>
-            <a href="#news">News</a>
-            <a href="#get-involved">Get Involved</a>
+            <a href="#about">Rreth Nesh</a>
+            <a href="#issues">Çështjet</a>
+            <a href="#news">Lajme</a>
+            <a href="#get-involved">Bashkohuni</a>
             <a href="#contact">
-              <button>Contact Us</button>
+              <button>Na Kontaktoni</button>
             </a>
           </nav>
         </div>

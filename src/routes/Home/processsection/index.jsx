@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./processsection.scss";
 import DownIcon from '../../../assets/icons/new-down.svg';
 import AnimatedSection from "../../../components/Animation";
+
 export default function Processsection() {
   const [toggle, setToggle] = useState(false);
   return (
@@ -11,12 +12,12 @@ export default function Processsection() {
           <AnimatedSection animationType="fade-up" duration={1000} delay={400}>
             <div className="grid-items spacer-left">
               <h6>01</h6>
-              <p>Initial Engagement</p>
+              <p>Angazhimi Fillestar</p>
               <span>
-                Our campaign begins with direct community engagement. We believe in 
-                understanding the needs of every neighborhood and citizen. Through 
-                town halls, community forums, and direct outreach, we gather valuable 
-                insights to shape our policies and initiatives.
+                Fushata jonë fillon me angazhimin e drejtpërdrejtë me komunitetin. Ne besojmë në
+                kuptimin e nevojave të çdo lagjeje dhe qytetari. Përmes
+                takimeve publike, forumeve komunitare dhe kontakteve të drejtpërdrejta, mbledhim
+                njohuri të vlefshme për të formësuar politikat dhe iniciativat tona.
               </span>
             </div>
           </AnimatedSection>
@@ -24,12 +25,12 @@ export default function Processsection() {
           <AnimatedSection animationType="fade-up" duration={1000} delay={600}>
             <div className="grid-items">
               <h6>02</h6>
-              <p>Policy Development</p>
+              <p>Zhvillimi i Politikave</p>
               <span>
-                Based on community input, we develop comprehensive policies that 
-                address real needs. Our 30-minute community sessions allow citizens 
-                to provide direct feedback on proposed initiatives, ensuring our 
-                approach truly represents our community's aspirations.
+                Bazuar në kontributin e komunitetit, ne zhvillojmë politika gjithëpërfshirëse që
+                adresojnë nevojat reale. Sesionet tona 30-minutëshe me komunitetin u lejojnë qytetarëve
+                të ofrojnë reagime të drejtpërdrejta mbi iniciativat e propozuara, duke siguruar që
+                qasja jonë përfaqëson vërtet aspiratat e komunitetit tonë.
               </span>
             </div>
           </AnimatedSection>
@@ -37,12 +38,12 @@ export default function Processsection() {
           <AnimatedSection animationType="fade-up" duration={1000} delay={800}>
             <div className="grid-items">
               <h6>03</h6>
-              <p>Implementation</p>
+              <p>Zbatimi</p>
               <span>
-                Action speaks louder than words. Once policies are refined through 
-                community feedback, we move swiftly to implementation. Our team ensures 
-                transparent execution while maintaining regular communication with 
-                constituents about progress and impact.
+                Veprat flasin më shumë se fjalët. Pasi politikat përsosen përmes
+                reagimeve të komunitetit, ne lëvizim shpejt drejt zbatimit. Ekipi ynë siguron
+                ekzekutim transparent duke ruajtur komunikim të rregullt me
+                zgjedhësit për progresin dhe ndikimin.
               </span>
             </div>
           </AnimatedSection>
@@ -51,21 +52,21 @@ export default function Processsection() {
 
       <div className="container6" id="faq">
         <div className="sub-heading">
-          <h5>FREQUENTLY ASKED QUESTIONS</h5>
+          <h5>PYETJET MË TË SHPESHTA</h5>
         </div>
         <div className="main-grid main-grid-mobile-hide">
           <div className="main-grid-items">
             <div className="flip-card one">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>What are your key<br/>priorities for our<br/>community?</p>
+                  <p>Cilat janë<br/>prioritetet tuaja<br/>kryesore për<br/>komunitetin tonë?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    Our priorities focus on economic development, education reform, 
-                    healthcare access, and environmental protection. We're committed 
-                    to creating sustainable growth while ensuring no community member 
-                    is left behind.
+                    Prioritetet tona fokusohen në zhvillimin ekonomik, reformën në arsim,
+                    aksesin në kujdesin shëndetësor dhe mbrojtjen e mjedisit. Ne jemi të përkushtuar
+                    për të krijuar rritje të qëndrueshme duke siguruar që asnjë anëtar i komunitetit
+                    të mos mbetet pas.
                   </span>
                 </div>
               </div>
@@ -74,13 +75,13 @@ export default function Processsection() {
             <div className="flip-card two">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>How do you plan to<br/>engage with<br/>constituents?</p>
+                  <p>Si planifikoni të<br/>angazhoheni me<br/>zgjedhësit?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    We maintain an open-door policy with regular town halls, digital 
-                    forums, and community meetings. Our team is always available to 
-                    hear your concerns and ideas for improving our community.
+                    Ne mbajmë një politikë dyer të hapura me takime të rregullta publike, forume
+                    digjitale dhe mbledhje komunitare. Ekipi ynë është gjithmonë i disponueshëm
+                    për të dëgjuar shqetësimet dhe idetë tuaja për përmirësimin e komunitetit tonë.
                   </span>
                 </div>
               </div>
@@ -89,13 +90,13 @@ export default function Processsection() {
             <div className="flip-card three">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>What experience do<br/>you bring to this<br/>position?</p>
+                  <p>Çfarë përvoje<br/>sillni në këtë<br/>pozicion?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    With 15 years of public service experience, including roles in 
-                    city council and community development, I bring practical knowledge 
-                    and proven leadership skills to address our community's challenges.
+                    Me 15 vjet përvojë në shërbimin publik, duke përfshirë role në
+                    këshillin e qytetit dhe zhvillimin e komunitetit, sjell njohuri praktike
+                    dhe aftësi të provuara udhëheqëse për të adresuar sfidat e komunitetit tonë.
                   </span>
                 </div>
               </div>
@@ -104,13 +105,13 @@ export default function Processsection() {
             <div className="flip-card new2">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>How will you ensure<br/>transparency in<br/>governance?</p>
+                  <p>Si do të siguroni<br/>transparencë në<br/>qeverisje?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    We're committed to full transparency through regular public reports, 
-                    open budget meetings, and accessible digital platforms where citizens 
-                    can track progress on all initiatives.
+                    Ne jemi të përkushtuar ndaj transparencës së plotë përmes raporteve të rregullta publike,
+                    takimeve të hapura për buxhetin dhe platformave digjitale të aksesueshme ku qytetarët
+                    mund të ndjekin progresin e të gjitha iniciativave.
                   </span>
                 </div>
               </div>
@@ -121,13 +122,13 @@ export default function Processsection() {
             <div className="flip-card new1">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>What sets your<br/>approach apart from<br/>traditional<br/>governance?</p>
+                  <p>Çfarë e veçon<br/>qasjen tuaj nga<br/>qeverisja<br/>tradicionale?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    Our approach combines modern technology with traditional community 
-                    values. We use digital tools for better engagement while maintaining 
-                    personal connections through regular community presence.
+                    Qasja jonë kombinon teknologjinë moderne me vlerat tradicionale të komunitetit.
+                    Ne përdorim mjete digjitale për angazhim më të mirë duke ruajtur
+                    lidhjet personale përmes pranisë së rregullt në komunitet.
                   </span>
                 </div>
               </div>
@@ -136,13 +137,13 @@ export default function Processsection() {
             <div className="flip-card four">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>What is your plan for<br/>economic growth?</p>
+                  <p>Cili është plani juaj<br/>për rritje<br/>ekonomike?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    Our economic plan focuses on supporting local businesses, attracting 
-                    new investments, and creating job opportunities through reduced 
-                    bureaucracy and targeted development programs.
+                    Plani ynë ekonomik fokusohet në mbështetjen e bizneseve lokale, tërheqjen
+                    e investimeve të reja dhe krijimin e mundësive të punësimit përmes
+                    reduktimit të burokracisë dhe programeve të zhvillimit të synuara.
                   </span>
                 </div>
               </div>
@@ -151,13 +152,13 @@ export default function Processsection() {
             <div className="flip-card five">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>How will you address<br/>environmental<br/>concerns?</p>
+                  <p>Si do të adresoni<br/>çështjet<br/>mjedisore?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    Our environmental strategy includes green energy initiatives, 
-                    sustainable development practices, and community-based conservation 
-                    programs to ensure a cleaner, healthier future.
+                    Strategjia jonë mjedisore përfshin iniciativa për energji të gjelbër,
+                    praktika të zhvillimit të qëndrueshëm dhe programe konservimi të bazuara
+                    në komunitet për të siguruar një të ardhme më të pastër dhe më të shëndetshme.
                   </span>
                 </div>
               </div>
@@ -166,13 +167,14 @@ export default function Processsection() {
             <div className="flip-card six">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>What are your plans<br/>for education<br/>reform?</p>
+                  <p>Cilat janë planet<br/>tuaja për reformën<br/>në arsim?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    We're committed to modernizing our education system through 
-                    increased funding, technology integration, and expanded after-school 
-                    programs to ensure every student has access to quality education.
+                    Ne jemi të përkushtuar për modernizimin e sistemit tonë arsimor përmes
+                    rritjes së financimit, integrimit të teknologjisë dhe zgjerimit të
+                    programeve pas shkollës për të siguruar që çdo student të ketë akses
+                    në arsim cilësor.
                   </span>
                 </div>
               </div>
@@ -183,13 +185,13 @@ export default function Processsection() {
             <div className="flip-card new3">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>How will you improve<br/>public safety?</p>
+                  <p>Si do të përmirësoni<br/>sigurinë publike?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    Our comprehensive public safety plan includes community policing,
-                    improved emergency response times, and neighborhood watch programs.
-                    We'll work closely with law enforcement to ensure safe communities.
+                    Plani ynë gjithëpërfshirës për sigurinë publike përfshin policimin komunitar,
+                    përmirësimin e kohës së reagimit emergjent dhe programe vëzhgimi në lagje.
+                    Ne do të punojmë ngushtë me forcat e rendit për të siguruar komunitete të sigurta.
                   </span>
                 </div>
               </div>
@@ -198,13 +200,13 @@ export default function Processsection() {
             <div className="flip-card new4">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>What about senior<br/>citizen services?</p>
+                  <p>Çfarë për shërbimet<br/>për të moshuarit?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    We're expanding senior services with improved transportation,
-                    healthcare access, and community programs. Our goal is to ensure
-                    our seniors can live independently with dignity and support.
+                    Ne po zgjerojmë shërbimet për të moshuarit me transport të përmirësuar,
+                    akses në kujdesin shëndetësor dhe programe komunitare. Qëllimi ynë është të sigurojmë
+                    që të moshuarit tanë të mund të jetojnë në mënyrë të pavarur me dinjitet dhe mbështetje.
                   </span>
                 </div>
               </div>
@@ -213,13 +215,13 @@ export default function Processsection() {
             <div className="flip-card new5">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>How will you support<br/>local businesses?</p>
+                  <p>Si do të mbështesni<br/>bizneset lokale?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    Our business support program includes tax incentives, reduced
-                    regulations, and development grants. We'll create a business-friendly
-                    environment that encourages growth and innovation.
+                    Programi ynë i mbështetjes së biznesit përfshin stimuj fiskalë, reduktim
+                    të rregulloreve dhe grante zhvillimi. Ne do të krijojmë një mjedis miqësor
+                    për bizneset që inkurajon rritjen dhe inovacionin.
                   </span>
                 </div>
               </div>
@@ -228,13 +230,13 @@ export default function Processsection() {
             <div className="flip-card new6">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>What's your vision for<br/>infrastructure?</p>
+                  <p>Cila është vizioni juaj<br/>për infrastrukturën?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
-                    We're planning major upgrades to roads, public transport, and
-                    digital infrastructure. Smart city initiatives will improve
-                    services while maintaining cost efficiency.
+                    Ne planifikojmë përmirësime të mëdha në rrugë, transport publik dhe
+                    infrastrukturë digjitale. Iniciativat e qytetit inteligjent do të përmirësojnë
+                    shërbimet duke ruajtur efikasitetin e kostove.
                   </span>
                 </div>
               </div>
@@ -244,7 +246,7 @@ export default function Processsection() {
         
         <div className="h-m">
           <div className="new-contnet-alignment-design-style" onClick={() => setToggle(!toggle)}>
-            <a>{toggle ? 'Show Less' : 'Show More'}</a>
+            <a>{toggle ? 'Trego Më Pak' : 'Trego Më Shumë'}</a>
             <img className={toggle ? "animation-time rotate" : "animation-time"} src={DownIcon} alt="DownIcon"/>
           </div>
         </div>

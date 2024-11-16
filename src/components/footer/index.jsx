@@ -11,7 +11,7 @@ export default function Footer() {
     script.onload = function() {
       window.provenExpert.proSeal({
         widgetId: "55a82de9-a98a-4430-be4f-dcf7ed616dc9",
-        language: "de-DE",
+        language: "sq-AL",
         bannerColor: "#0DB1CD",
         textColor: "#FFFFFF",
         showReviews: true,
@@ -36,22 +36,27 @@ export default function Footer() {
         <div id="proSealWidget"></div>
           <div className="footer-content-alignment">
             <div className="left-contnet">
-              <p>SOCIAL LINKS</p>
+              <p>RRJETET SOCIALE</p>
               <div className="social-icon-alignment">
                 <a
-                  href="https://www.instagram.com/richtungswechsel_consulting/?igshid=NzZlODBkYWE4Ng%3D%3D"
+                  href="https://www.facebook.com/fushata-jone"
                   target="_blank"
                 >
-                  <img src={Icon01} alt="Icon01" />
+                  <img src={Icon01} alt="Facebook" />
                 </a>
-                <img src={Icon02} alt="Icon02" />
+                <a
+                  href="https://www.twitter.com/fushata-jone"
+                  target="_blank"
+                >
+                  <img src={Icon02} alt="Twitter" />
+                </a>
               </div>
             </div>
             <div className="right-contnet">
-              <p>RECHTLICHES</p>
-              <NavLink to="/agb">AGB</NavLink>
+              <p>INFORMACIONE LIGJORE</p>
+              <NavLink to="/kushtet">KUSHTET E PËRDORIMIT</NavLink>
               <NavLink to="/impressum">IMPRESSUM</NavLink>
-              <NavLink to="/datenschutz">DATENSCHUTZ</NavLink>
+              <NavLink to="/privatesia">POLITIKA E PRIVATËSISË</NavLink>
             </div>
           </div>
         </div>

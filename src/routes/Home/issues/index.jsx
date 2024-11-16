@@ -13,7 +13,7 @@ export default function AboutSection() {
       <div className="container2">
       <AnimatedSection animationType="fade-up" duration={1000} delay={300}>
         <div className="text">
-          <h2>KEY PRIORITIES</h2>
+          <h2>PRIORITETET KRYESORE</h2>
         </div>
         </AnimatedSection>
         <div className="box-center-alignment">
@@ -22,30 +22,30 @@ export default function AboutSection() {
             <div className="icon-text">
               <img src={TrueIcon} alt="TrueIcon" />
               <span>
-              Education Reform: Modernizing our schools and increasing access to quality education
-              for all students, regardless of their background.          
+              Reforma në Arsim: Modernizimi i shkollave tona dhe rritja e 
+              aksesit në arsim cilësor për të gjithë nxënësit, pavarësisht prejardhjes së tyre.        
               </span>
             </div>
             </AnimatedSection>
             <AnimatedSection animationType="fade-up" duration={1000} delay={500}>
             <div className="icon-text">
               <img src={TrueIcon} alt="TrueIcon" />
-              <span>Economic Development: Creating job opportunities and supporting local businesses
-              through targeted initiatives and reduced bureaucracy.</span>
+              <span>Zhvillimi Ekonomik: Krijimi i mundësive për punësim dhe mbështetja e bizneseve 
+                lokale përmes iniciativave të synuara dhe reduktimit të burokracisë.</span>
             </div>
             </AnimatedSection>
             <AnimatedSection animationType="fade-up" duration={1000} delay={600}>
             <div className="icon-text">
               <img src={TrueIcon} alt="TrueIcon" />
-              <span> Healthcare Access: Improving medical facilities and ensuring affordable
-              healthcare services for all community members.</span>
+              <span>Aksesi në Kujdesin Shëndetësor: Përmirësimi i objekteve mjekësore dhe sigurimi 
+                i shërbimeve shëndetësore të përballueshme për të gjithë anëtarët e komunitetit.</span>
             </div>
             </AnimatedSection>
             <AnimatedSection animationType="fade-up" duration={1000} delay={650}>
             <div className="icon-text">
               <img src={TrueIcon} alt="TrueIcon" />
-              <span> Environmental Protection: Implementing sustainable policies and green initiatives
-              to protect our local environment for future generations.</span>
+              <span> Mbrojtja e Mjedisit: Zbatimi i politikave të qëndrueshme dhe iniciativave të 
+                gjelbra për të mbrojtur mjedisin tonë për brezat e ardhshëm.</span>
             </div>
             </AnimatedSection>
            
@@ -60,32 +60,32 @@ export default function AboutSection() {
           <div className="grid-items">
             <div>
             <h3>
-  BREAKING <br />
-  AWAY FROM <br />
-  THE PAST
-</h3>
+            SHKËPUTJE <br />
+            NGA E <br />
+            KALUARA 
+            </h3>
 <div className="relative-div">
-  <span>{`->`} Outdated Policies</span>
+  <span>{`->`} Politika të Vjetruara</span>
   <img src={RedIcon} alt="RedIcon"/>
 </div>
 <div className="relative-div1">
-  <span>{`->`} Bureaucratic Inefficiency</span>
+  <span>{`->`} Inefiçencë Burokratike</span>
   <img src={RedIcon2} alt="RedIcon2"/>
 </div>
 <div className="relative-div-3">
-  <span>{`->`} Inadequate Public Services</span>
+  <span>{`->`} Shërbime Publike të Pamjaftueshme</span>
   <img src={RedIcon3} alt="RedIcon3"/>
 </div>
 <div className="relative-div-4">
   <span>
-    {`->`} Underfunded Community Programs
+    {`->`} Programe Komunitare të Nënfinancuara
   </span>
   <img src={RedIcon4} alt="RedIcon4"/>
 </div>
               
             </div>
             <a href="#kontact">
-            <button>Mehr erfahren</button>
+            <button>Mëso më shumë</button>
             </a>
           </div>
           </AnimatedSection>
@@ -93,28 +93,27 @@ export default function AboutSection() {
           <div className="grid-items">
             <div>
             <h3>
-  TIME TO <br /> MODERNIZE <br />
-  OUR APPROACH
+            KOHA PËR TË   <br /> MODERNIZUAR<br />
+            QASJEN TONË
 </h3>
 <div className="text">
   <p>
-    New paths, new opportunities! We're introducing innovative solutions
-    for our community's most pressing challenges.
+  Rrugë të reja, mundësi të reja! Po prezantojmë zgjidhje inovative për sfidat 
+  më urgjente të komunitetit tonë.
   </p>
   <p>
-    Create a new legacy. We will implement a modern system
-    of governance, establish efficient processes, and remove outdated
-    procedures that have held back our community's growth and
-    development.
+  Krijojmë një trashëgimi të re. Do të zbatojmë një sistem modern të qeverisjes, 
+  do të vendosim procese efikase dhe do të heqim procedurat e vjetruara që kanë penguar 
+  rritjen dhe zhvillimin tonë.
   </p>
   <p>
-    Together with independent experts and community leaders,
-    we're building a successful and sustainable future.
+  Së bashku me ekspertë të pavarur dhe liderë të komunitetit, 
+  po ndërtojmë një të ardhme të suksesshme dhe të qëndrueshme.
   </p>
 </div>
             </div>
             <a href="#Leistungen">
-            <button>Learn More</button>
+            <button>Mëso më shumë</button>
             </a>
           </div>
           </AnimatedSection>

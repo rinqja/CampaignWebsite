@@ -11,16 +11,16 @@ export default function NewsSection() {
   const [showAll, setShowAll] = useState(false);
 
   const iconGrids = [
-    { text: "Community Engagement: Our recent town hall meetings have shown strong support for our education reform initiatives, with over 500 residents participating in productive discussions." },
-    { text: "Infrastructure Development: Successfully secured funding for three new community centers, demonstrating our commitment to creating spaces for community gatherings and youth programs." },
-    { text: "Healthcare Initiative: Launched a new partnership with local medical facilities to improve access to preventive care services for all residents." },
-    { text: "Economic Growth: Implemented new programs supporting local businesses, resulting in the creation of 200+ new jobs in our district." },
-    { text: "Environmental Action: Initiated green energy projects that will reduce our community's carbon footprint by 30% over the next five years." },
-    { text: "Public Safety: Enhanced community policing programs have led to a significant decrease in neighborhood crime rates." },
-    { text: "Education Excellence: Secured additional funding for after-school programs, benefiting over 1,000 students in our district." },
-    { text: "Senior Services: Expanded support services for elderly residents, including new transportation and home care assistance programs." },
-    { text: "Youth Development: Launched new vocational training programs in partnership with local businesses to create career opportunities for young adults." },
-    { text: "Fiscal Responsibility: Maintained balanced budgets while increasing investment in essential community services." }
+    { text: "Angazhimi me Komunitetin: Takimet tona të fundit me banorët kanë treguar mbështetje të madhe për iniciativat tona të reformës në arsim, me mbi 500 qytetarë që morën pjesë në diskutime të frytshme." },
+    { text: "Zhvillimi i Infrastrukturës: Siguruam financim për ndërtimin e tre qendrave të reja komunitare, duke dëshmuar përkushtimin tonë për krijimin e hapësirave për tubime të komunitetit dhe programe për të rinjtë." },
+    { text: "Iniciativa në Kujdesin Shëndetësor: Nisëm një partneritet të ri me institucionet lokale shëndetësore për të përmirësuar aksesin në shërbimet parandaluese për të gjithë banorët." },
+    { text: "Rritja Ekonomike: Zbatuam programe të reja që mbështesin bizneset lokale, duke rezultuar në krijimin e mbi 200 vendeve të reja të punës në distriktin tonë." },
+    { text: "Aksion për Mjedisin: Inicuam projekte të energjisë së gjelbër që do të ulin gjurmën tonë të karbonit me 30% gjatë pesë viteve të ardhshme." },
+    { text: "Siguria Publike: Përmirësuam programet e policimit komunitar, duke çuar në një ulje të ndjeshme të shkallës së krimit në lagjet tona." },
+    { text: "Shkëlqyeshmeria në Arsim: Siguruam financim shtesë për programet pas shkollës, duke përfituar mbi 1,000 studentë në distriktin tonë." },
+    { text: "Shërbime për të Moshuarit: Zgjeruam shërbimet mbështetëse për banorët e moshuar, duke përfshirë transport të ri dhe programe ndihmëse në shtëpi." },
+    { text: "Zhvillimi i Rinisë: Nisëm programe të reja trajnimi profesional në partneritet me bizneset lokale për të krijuar mundësi karriere për të rinjtë." },
+    { text: "Përgjegjësia Fiskale: Mbajtëm buxhete të balancuara duke rritur investimet në shërbimet thelbësore të komunitetit." }
   ];
 
 
@@ -44,7 +44,7 @@ export default function NewsSection() {
   return (
     <div className="richtungswechsel-section-all-contnet-alignment">
        <div className="text">
-          <h4>LATEST UPDATES FROM THE CAMPAIGN</h4>
+          <h4>LAJMET E FUNDIT NGA FUSHATA</h4>
           <div className="line"></div>
 
         </div>
@@ -61,7 +61,7 @@ export default function NewsSection() {
     </iframe>
   </div>
   <div className="header-mobile">
-  <h5>CAMPAIGN HIGHLIGHTS</h5>
+  <h5>MOMENTET KRYESORE TË FUSHATËS</h5>
         </div>
 </div>
         {/* <div className="line"></div> */}
@@ -92,7 +92,7 @@ Statt Leads zu kaufen, warum nicht besser die Kraft deiner eigenen Marke nutzen?
           </span>
         </div> */}
         <div className="heading">
-        <h5>CAMPAIGN HIGHLIGHTS</h5>
+        <h5>MOMENTET KRYESORE TË FUSHATËS</h5>
         </div>
         
         <div className="icon-grid-container">

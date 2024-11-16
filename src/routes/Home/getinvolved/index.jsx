@@ -17,14 +17,14 @@ export default function GetInvolvedSection() {
               <div className="text-style">
                 <h5>“</h5>
                 <h6>
-                  FÜR <br />
-                  MAXIMALEN
-                  <br /> ERFOLG
+                  PËR <br />
+                  NJË TË ARDHMJE
+                  <br /> MË TË MIRË
                 </h6>
               </div>
               <div className="left-content-alignment">
                 <div className="line"></div>
-                <span>Onur, Gründer</span>
+                <span>Arben Gashi, Kandidat</span>
               </div>
             </div>
           </div>
@@ -34,36 +34,21 @@ export default function GetInvolvedSection() {
             <div className="box-image">
               <img src={BoxImage} alt="BoxImage" />
             </div>
-            <h2>RICHTUNGS WECHSEL</h2>
+            <h2>BASHKOHUNI ME NE</h2>
             <span>
-              Hast du dich jemals gefragt, welcher Schlüssel zu einem wirklich
-              effektiven Finanzvertrieb ist? „Richtungswechsel“ könnte die
-              Antwort sein, nach der du gesucht hast.
+              A keni menduar ndonjëherë se si mund të bëni një ndryshim të vërtetë në komunitetin tuaj? Tani është koha për të vepruar.
             </span>
             <span>
-              Stell dir „Richtungswechsel“ als die optimale Verschmelzung von
-              Consulting und Agenturdienstleistungen vor. Aber nicht irgendeine
-              Kombination – sie ist maßgeschneidert für Finanzberater,
-              Handelsvertreter, Makler und Führungskräfte wie dich.
+              Bashkohuni me ne për të ndërtuar një të ardhme më të mirë për të gjithë. Lëvizja jonë është e krijuar për qytetarë të angazhuar dhe të përkushtuar si ju.
             </span>
             <p>
-              Wie oft hast du Dienstleistungen in Anspruch genommen, die
-              entweder eine Beratungs- oder Agenturkomponente vermissen ließen?
-              Oder Anbieter, die einfach nicht die erforderliche
-              Branchenkenntnis mitbrachten?
+              Sa herë keni dëshiruar të shihni ndryshime reale, por keni ndjerë se zëri juaj nuk është dëgjuar? Ne besojmë se çdo zë ka rëndësi.
             </p>
             <p>
-              Wir sind aus der Praxis, für die Praxis. „Richtungswechsel“ hat
-              seine Wurzeln tief in der Finanzdienstleistungsbranche. Alles, was
-              wir tun – von unserem Expertenteams über unsere innovativen
-              Strategien bis hin zu unseren einzigartigen Prozessen und
-              modernsten bewährten Technologielösungen – wurde mit einem klaren
-              Ziel vor Augen entwickelt: Den Finanzvertrieb zu revolutionieren.
+              Ne jemi qytetarë si ju, të përkushtuar për të sjellë ndryshime pozitive. Së bashku, mund të krijojmë politika që reflektojnë nevojat dhe aspiratat e komunitetit tonë.
             </p>
             <p>
-              Spürst du den Drang, mehr zu erfahren? Dann zögere nicht.
-              Kontaktiere uns jetzt und erfahre, wie „Richtungswechsel“ den
-              Unterschied in deinem Geschäft machen kann.
+              Dëshironi të bëheni pjesë e ndryshimit? Mos hezitoni. Bashkohuni me ne dhe kontribuoni në ndërtimin e një të ardhmeje më të mirë për vendin tonë.
             </p>
           </div>
         </div>

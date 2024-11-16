@@ -3,20 +3,20 @@ import "./kontact.scss";
 export default function ContactSection() {
   return (
     <div>
-      <div className="container8" id="kontact">
+      <div className="container8" id="kontakt">
         <div className="kontact-section-all-contnet-alignment">
           <div className="grid">
             <div className="grid-items">
                 <div className="text-new">
                     <h5>KONTAKT</h5>
-                    <a href = "mailto: kontakt@richtungswechsel-consulting.de">kontakt@richtungswechsel-consulting.de</a>
-                    <p>Birkenwaldstraße 29</p>
-                    <p>70191 Stuttgart</p>
+                    <a href="mailto: info@fushata-jone.com">info@fushata-jone.com</a>
+                    <p>Rruga e Dëshmorëve 123</p>
+                    <p>10000 Prishtinë</p>
                 </div>
             </div>
             <div className="grid-items">
               <div className="form">
-                <label>NAME</label>
+                <label>EMRI</label>
                 <input type="text" />
               </div>
               <div className="form">
@@ -24,11 +24,11 @@ export default function ContactSection() {
                 <input type="text" />
               </div>
               <div className="form">
-                <label>TELEFONNUMMER</label>
+                <label>NUMRI I TELEFONIT</label>
                 <input type="text" />
               </div>
               <div className="form">
-                <label>IHRE NACHRICHT</label>
+                <label>MESAZHI JUAJ</label>
                 <textarea></textarea>
               </div>
               <div className="checkbox-text">
@@ -36,14 +36,12 @@ export default function ContactSection() {
                 <label htmlFor="Donuts">
                   {" "}
                   <span>
-                  HIERMIT STIMME ICH DEN DATENSCHUTZBESTIMMUNGEN UND DEN AGB ZU.
-
-
+                    Pajtohem me politikat e privatësisë dhe kushtet e përdorimit.
                   </span>
                 </label>
               </div>
               <div className="btn">
-                <button>ABSENDEN</button>
+                <button>DËRGO</button>
               </div>
             </div>
           </div>

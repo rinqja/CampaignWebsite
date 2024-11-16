@@ -25,36 +25,29 @@ export default function Profilesection() {
               delay={400}
             >
               <div className="text">
-                <h4>ONUR YILDIZ</h4>
-                <h5>Gründer & Experte</h5>
+                <h4>ARBEN GASHI</h4>
+                <h5>Kandidat për Deputet</h5>
                 <h6>
-                  für automatisierte Vertriebs- und Verkaufsprozesse, sowie
-                  Bestandsmanagement
+                  Me përvojë të gjerë në shërbimin publik dhe politikë
                 </h6>
                 <div className="left-right">
-                  <p>Das macht Onur Yildiz außergewöhnlich: </p>
+                  <p>Njihuni me Arben Gashin: </p>
                   <p>
-                    Er ist ein überzeugender Rhetoriker und hat die Fähigkeit,
-                    Texte kreativ zu verfassen und durch anschauliche Beispiele
-                    und Metaphern zu interpretieren. Er schafft es, komplexe
-                    Strategien, Techniken und Handlungen vereinfacht aufzuzeigen
-                    und verständlich wiederzugeben.
+                    Arben Gashi është një lider i përkushtuar me mbi 20 vjet përvojë në shërbimin publik.
+                    Ai ka punuar pa u lodhur për të përmirësuar jetën e qytetarëve, duke u fokusuar në
+                    edukim, shëndetësi dhe zhvillim ekonomik.
                   </p>
                   <p>
-                    "When u lose, experience is the reward" <br />
-                    "Wenn du verlierst, ist Erfahrung die Belohnung".
+                    "Besoj se së bashku mund të ndërtojmë një të ardhme më të mirë për të gjithë."
                   </p>
                   <p>
-                    Somit baut er bei seinen Teilnehmern Verständnis der
-                    Kommunikationsformen und die Fähigkeit, für die
-                    verschiedenen Methoden angemessene Texte zu verfassen auf.
-                    Sein aussergewöhnlicher Stil ist es, Informationen
-                    unterhaltsam, humorvoll und motivierend zu übertragen.
+                    Arbeni është i njohur për aftësinë e tij për të bashkuar njerëzit dhe për të gjetur
+                    zgjidhje praktike për sfidat me të cilat përballet komuniteti ynë. Ai sjell një
+                    qasje inovative dhe energji të re në politikën tonë.
                   </p>
                   <p>
-                    Diese Methode sorgt jedes mal für großartige IMPULSE,
-                    BEWUNDERUNG und großes INTERESSE bei den Teilnehmern und
-                    Mandanten.
+                    Me përkushtimin e tij ndaj transparencës dhe llogaridhënies, Arbeni synon të
+                    përmirësojë qeverisjen dhe të sigurojë që zëri i çdo qytetari të dëgjohet.
                   </p>
                 </div>
               </div>
@@ -76,31 +69,23 @@ export default function Profilesection() {
               delay={400}
             >
               <div className="text">
-                <h4>NOEL KEANU YILDIZ</h4>
-                <h5>Gründer & Experte</h5>
-                <h6>für Recruiting und Mindset</h6>
+                <h4>LEON DERVISHI</h4>
+                <h5>Menaxher Fushate</h5>
+                <h6>Ekspert në strategji politike dhe organizim</h6>
                 <div className="left-right">
-                  <p>Das macht Noel Keanu Yildiz außergewöhnlich: </p>
+                  <p>Njihuni me Leon Dervishin: </p>
                   <p>
-                    Neben seiner Kompetenz im Vertrieb ist er auch ein Experte
-                    im Bereich emotionaler Intelligenz. Mit einem hohen Maß an
-                    Empathie und sozialer Kompetenz pflegt er starke
-                    zwischenmenschliche Beziehungen und kann sich mühelos in die
-                    Perspektive anderer Menschen versetzen.
+                    Leon Dervishi sjell një përvojë të pasur në menaxhimin e fushatave dhe strategjive politike.
+                    Me një qasje kreative dhe të fokusuar, ai ka ndihmuar në formësimin e politikave që
+                    reflektojnë nevojat e qytetarëve.
                   </p>
                   <p>
-                    „Alles ist schwierig, bevor es einfach ist“
-                    <br />
-                    „Alles ist schwierig, bevor es einfach ist“.
+                    "Çdo sfidë është një mundësi për të bërë ndryshimin."
                   </p>
                   <p>
-                    Die Teilnehmer erhalten von ihm einen umfassenden Inhalt in
-                    Bezug auf die emotionale Intelligenz, um ihre sozialen
-                    Kompetenzen und zwischenmenschlichen Beziehungen zu stärken.
-                    Zusätzlich stellt er seine Expertise im Recruiting zur
-                    Verfügung, um die passenden Vertriebspartner zu gewinnen und
-                    somit eine nachhaltige Reduzierung der Fluktuation im
-                    Unternehmen zu erreichen.
+                    Leon është i përkushtuar për të angazhuar komunitetin dhe për të siguruar që fushata
+                    jonë të jetë gjithëpërfshirëse dhe efektive. Ai punon ngushtë me ekipin për të
+                    implementuar strategji që sjellin rezultate konkrete.
                   </p>
                 </div>
               </div>
@@ -122,31 +107,23 @@ export default function Profilesection() {
               delay={400}
             >
               <div className="text">
-                <h4>SAMUEL RAUWALD</h4>
-                <h5>Experte</h5>
-                <h6>für Markenaufbau, Sichtbarkeit und Leadgenerierung</h6>
+                <h4>ELIRA MUSTAFA</h4>
+                <h5>Këshilltare Politike</h5>
+                <h6>Specialiste në politika publike dhe zhvillim komunitar</h6>
                 <div className="left-right">
-                  <p>Das macht Samuel Rauwald außergewöhnlich: </p>
+                  <p>Njihuni me Elira Mustafën: </p>
                   <p>
-                    Er ist der innovative Kopf und Gründer der JESAM Consulting
-                    GmbH, ist eine treibende Kraft in der Welt der
-                    Softwareentwicklung und des Performance Marketings.
+                    Elira Mustafa është një këshilltare politike me një fokus të veçantë në politikat
+                    publike që përmirësojnë jetën e qytetarëve. Me përvojë në sektorin publik dhe atë
+                    jofitimprurës, ajo sjell një perspektivë unike në ekipin tonë.
                   </p>
                   <p>
-                    Was ihn auszeichnet, ist nicht nur seine technische
-                    Expertise, sondern auch seine Fähigkeit, kreative Lösungen
-                    zu finden und maßgeschneiderte Softwareprodukte zu
-                    entwickeln, die die spezifischen Anforderungen seiner Kunden
-                    erfüllen. Sein Engagement für höchste Qualitätsstandards und
-                    innovative Ansätze macht ihn zu einem gefragten Partner in
-                    der Branche.
+                    "Besoj në fuqinë e politikave të mira për të ndryshuar jetët."
                   </p>
                   <p>
-                    Mit seinem Team von über 120 erfahrenen Softwareingenieuren
-                    und Experten für Performance Marketing treibt Samuel Rauwald
-                    die Branche voran, indem er innovative Technologien
-                    entwickelt und Kunden dabei hilft, ihr volles digitales
-                    Potenzial auszuschöpfen.
+                    Elira punon për të zhvilluar dhe promovuar politika që janë të bazuara në kërkime
+                    dhe të orientuara drejt rezultateve. Ajo është e përkushtuar për të siguruar që
+                    politikat tona të jenë efektive dhe të përgjegjshme ndaj nevojave të komunitetit.
                   </p>
                 </div>
               </div>
