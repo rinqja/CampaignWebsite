@@ -10,7 +10,7 @@ import AnimatedSection from "../../../components/Animation";
 export default function AboutSection() {
   return (
     <div className="diesesection-all-contnet-alignment">
-      <div className="container2">
+      <div className="container2" id="container2">
         <AnimatedSection animationType="fade-up" duration={1000} delay={300}>
           <div className="text">
             <h2>PRIORITETET KRYESORE</h2>
@@ -82,7 +82,7 @@ export default function AboutSection() {
                 </div>
 
               </div>
-              <a href="#kontact">
+              <a href="#heading">
                 <button>Mëso më shumë</button>
               </a>
             </div>
@@ -106,7 +106,7 @@ export default function AboutSection() {
                     Me ekspertë dhe liderë, ndërtojmë të ardhmen.  </p>
                 </div>
               </div>
-              <a href="#Leistungen">
+              <a href="#heading">
                 <button>Mëso më shumë</button>
               </a>
             </div>

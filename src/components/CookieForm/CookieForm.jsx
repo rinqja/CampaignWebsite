@@ -85,15 +85,13 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
 
   return (
     <div
-      className={`md:min-h-screen overflow-auto h-screen fixed bg-black bg-opacity-60 w-full flex items-center  py-1 ${
-        cancel ? " justify-start " : " justify-center "
-      } ${clases(show)}`}
+      className={`md:min-h-screen overflow-auto h-screen fixed bg-black bg-opacity-60 w-full flex items-center  py-1 ${cancel ? " justify-start " : " justify-center "
+        } ${clases(show)}`}
       style={{ zIndex: "9999" }}
     >
       <div
-        className={`bg-white rounded-md px-7 text-[#797980] pt-8 pb-1 lg:max-w-[40rem] md:w-[40rem] w-full${
-          cancel ? " hidden " : " block "
-        }`}
+        className={`bg-white rounded-md px-7 text-[#797980] pt-8 pb-1 lg:max-w-[40rem] md:w-[40rem] w-full${cancel ? " hidden " : " block "
+          }`}
       >
         <p className="lg:text-sm md:text-base text-sm">
           Für unseren Service speichern wir Cookies und andere Informationen auf
@@ -104,28 +102,28 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
           wir um Ihre Einwilligung. Sie können diese jederzeit – auch später
           noch ändern oder widerrufen. Mehr erfahren Sie in der{" "}
           <NavLink to="/datenschutz">
-            <a className="text-[#034C43]">Datenschutzerklärung</a>
+            <a className="text-[#4d8fdb]">Datenschutzerklärung</a>
           </NavLink>
         </p>
         <div className="flex text-sm my-6 space-x-6">
           <NavLink to="/datenschutz">
-            <a className="text-[#034C43] underline">Datenschutz</a>
+            <a className="text-[#4d8fdb] underline">Datenschutz</a>
           </NavLink>
           <NavLink to="/impressum">
-            <a className="text-[#034C43] underline">Impressum</a>
+            <a className="text-[#4d8fdb] underline">Impressum</a>
           </NavLink>
         </div>
         <div className="flex md:flex-row flex-col md:space-y-0 space-y-4 md:justify-between">
           <div
             onClick={handleCancel}
-            className="md:w-[16rem] w-full text-center py-2.5 bg-[#034C43] text-white hover:cursor-pointer transition-all ease-in-out duration-200 hover:bg-opacity-90"
+            className="md:w-[16rem] w-full text-center py-2.5 bg-[#4d8fdb] text-white hover:cursor-pointer transition-all ease-in-out duration-200 hover:bg-opacity-90"
           >
             Einstellungen oder ablehnen
           </div>
           <div
             onClick={aceptCookie}
-            style={{ border:'1px solid #034C43'}}
-            className="md:w-[16rem] w-full text-center py-2.5 text-[#034C43] hover:cursor-pointer transition-all ease-in-out duration-200 hover:bg-opacity-90"
+            style={{ border: '1px solid #4d8fdb' }}
+            className="md:w-[16rem] w-full text-center py-2.5 text-[#4d8fdb] hover:cursor-pointer transition-all ease-in-out duration-200 hover:bg-opacity-90"
           >
             Alles Akzeptieren
           </div>
@@ -135,9 +133,8 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
       </div>
 
       <div
-        className={`min-h-screen bg-white relative rounded-md lg:w-[40rem] overflow-auto ${
-          cancel ? " block " : " hidden"
-        }`}
+        className={`min-h-screen bg-white relative rounded-md lg:w-[40rem] overflow-auto ${cancel ? " block " : " hidden"
+          }`}
       >
         <div className="p-7 ">
           <div>
@@ -157,7 +154,7 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                 >
                   <path
                     d="M300.188 246L484.14 62.04c5.06-5.064 7.852-11.82 7.86-19.024 0-7.208-2.792-13.972-7.86-19.028L468.02 7.872C462.952 2.796 456.196.016 448.984.016c-7.2 0-13.956 2.78-19.024 7.856L246.008 191.82 62.048 7.872C56.988 2.796 50.228.016 43.02.016c-7.2 0-13.96 2.78-19.02 7.856L7.872 23.988c-10.496 10.496-10.496 27.568 0 38.052L191.828 246 7.872 429.952C2.808 435.024.02 441.78.02 448.984c0 7.204 2.788 13.96 7.852 19.028l16.124 16.116c5.06 5.072 11.824 7.856 19.02 7.856 7.208 0 13.968-2.784 19.028-7.856l183.96-183.952 183.952 183.952c5.068 5.072 11.824 7.856 19.024 7.856h.008c7.204 0 13.96-2.784 19.028-7.856l16.12-16.116c5.06-5.064 7.852-11.824 7.852-19.028 0-7.204-2.792-13.96-7.852-19.028L300.188 246z"
-                    fill="#034C43"
+                    fill="#4d8fdb"
                   ></path>
                 </svg>
               </p>
@@ -169,10 +166,10 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
 
             <div className="flex text-sm md:my-6 my-2 space-x-6">
               <NavLink to="/datenschutz">
-                <a className="text-[#034C43] underline">Datenschutz</a>
+                <a className="text-[#4d8fdb] underline">Datenschutz</a>
               </NavLink>
               <NavLink to="/impressum">
-                <a className="text-[#034C43] underline">Impressum</a>
+                <a className="text-[#4d8fdb] underline">Impressum</a>
               </NavLink>
             </div>
 
@@ -181,11 +178,10 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                 onClick={() => {
                   setActive(0);
                 }}
-                className={`pb-1 hover:cursor-pointer w-1/2 text-center ${
-                  active == 0
+                className={`pb-1 hover:cursor-pointer w-1/2 text-center ${active == 0
                     ? " text-green-1 font-bold border-green-1 border-b-2 "
                     : " border-b border-opacity-10 border-black"
-                }`}
+                  }`}
               >
                 Kategorien
               </div>
@@ -193,21 +189,19 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                 onClick={() => {
                   setActive(1);
                 }}
-                className={`pb-1 hover:cursor-pointer w-1/2 text-center  ${
-                  active == 1
+                className={`pb-1 hover:cursor-pointer w-1/2 text-center  ${active == 1
                     ? " text-green-1 font-bold border-green-1 border-b-2 "
                     : " border-b border-opacity-10 border-black"
-                }`}
+                  }`}
               >
                 Services
               </div>
             </div>
             <div
-              className={` text-[#797980] mt-4 space-y-4 h-[49vh] overflow-auto ${
-                active == 0
+              className={` text-[#797980] mt-4 space-y-4 h-[49vh] overflow-auto ${active == 0
                   ? "relative opacity-100 block"
                   : " absolute opacity-0 hidden"
-              }`}
+                }`}
             >
               <div className="w-full md:text-base lg:text-sm">
                 <div
@@ -240,7 +234,7 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                                 <path
                                   d="M30.0094932,-0.5 C32.8534346,-0.5 35.4330697,0.632406246 37.3226603,2.47154687 C39.2173227,4.31562389 40.4181217,6.87029149 40.4959736,9.70631513 C40.4981622,12.7440885 39.3375699,15.4233885 37.4620437,17.3539966 C35.5609243,19.3109495 32.9241909,20.5 30.0094932,20.5 L30.0094932,20.5 L9.99050677,20.5 C7.14626154,20.5 4.56639324,19.3679366 2.67675543,17.5287725 C0.782448937,15.6850644 -0.418130086,13.1306858 -0.49597372,10.2937978 C-0.498162151,7.25597731 0.662425032,4.576654 2.53794226,2.64603293 C4.43906304,0.689056047 7.07580212,-0.5 9.99050677,-0.5 L9.99050677,-0.5 Z"
                                   stroke="#ffffff"
-                                  fill="#034C43"
+                                  fill="#4d8fdb"
                                 ></path>
                                 <path
                                   d="M30,18 C34.418278,18 38,14.418278 38,10 C38,5.581722 34.418278,2 30,2 C25.581722,2 22,5.581722 22,10 C22,14.418278 25.581722,18 30,18 Z"
@@ -321,7 +315,7 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                                 <path
                                   d="M30.0094932,-0.5 C32.8534346,-0.5 35.4330697,0.632406246 37.3226603,2.47154687 C39.2173227,4.31562389 40.4181217,6.87029149 40.4959736,9.70631513 C40.4981622,12.7440885 39.3375699,15.4233885 37.4620437,17.3539966 C35.5609243,19.3109495 32.9241909,20.5 30.0094932,20.5 L30.0094932,20.5 L9.99050677,20.5 C7.14626154,20.5 4.56639324,19.3679366 2.67675543,17.5287725 C0.782448937,15.6850644 -0.418130086,13.1306858 -0.49597372,10.2937978 C-0.498162151,7.25597731 0.662425032,4.576654 2.53794226,2.64603293 C4.43906304,0.689056047 7.07580212,-0.5 9.99050677,-0.5 L9.99050677,-0.5 Z"
                                   stroke="#ffffff"
-                                  fill="#034C43"
+                                  fill="#4d8fdb"
                                 ></path>
                                 <path
                                   d="M30,18 C34.418278,18 38,14.418278 38,10 C38,5.581722 34.418278,2 30,2 C25.581722,2 22,5.581722 22,10 C22,14.418278 25.581722,18 30,18 Z"
@@ -416,11 +410,10 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
               </div>
             </div>
             <div
-              className={` text-[#797980] mt-4 px-2 space-y-4  h-[49vh] overflow-auto ${
-                active == 1
+              className={` text-[#797980] mt-4 px-2 space-y-4  h-[49vh] overflow-auto ${active == 1
                   ? "relative opacity-100 block"
                   : " absolute opacity-0 hidden"
-              }`}
+                }`}
             >
               {/* <div className="w-full lg:text-sm md:text-base text-sm">
                 <div className="hover:cursor-pointer border items-center  border-black border-opacity-10 rounded-md p-4 py-2">
@@ -490,7 +483,7 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                                 <path
                                   d="M30.0094932,-0.5 C32.8534346,-0.5 35.4330697,0.632406246 37.3226603,2.47154687 C39.2173227,4.31562389 40.4181217,6.87029149 40.4959736,9.70631513 C40.4981622,12.7440885 39.3375699,15.4233885 37.4620437,17.3539966 C35.5609243,19.3109495 32.9241909,20.5 30.0094932,20.5 L30.0094932,20.5 L9.99050677,20.5 C7.14626154,20.5 4.56639324,19.3679366 2.67675543,17.5287725 C0.782448937,15.6850644 -0.418130086,13.1306858 -0.49597372,10.2937978 C-0.498162151,7.25597731 0.662425032,4.576654 2.53794226,2.64603293 C4.43906304,0.689056047 7.07580212,-0.5 9.99050677,-0.5 L9.99050677,-0.5 Z"
                                   stroke="#ffffff"
-                                  fill="#034C43"
+                                  fill="#4d8fdb"
                                 ></path>
                                 <path
                                   d="M30,18 C34.418278,18 38,14.418278 38,10 C38,5.581722 34.418278,2 30,2 C25.581722,2 22,5.581722 22,10 C22,14.418278 25.581722,18 30,18 Z"
@@ -568,7 +561,7 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                                 <path
                                   d="M30.0094932,-0.5 C32.8534346,-0.5 35.4330697,0.632406246 37.3226603,2.47154687 C39.2173227,4.31562389 40.4181217,6.87029149 40.4959736,9.70631513 C40.4981622,12.7440885 39.3375699,15.4233885 37.4620437,17.3539966 C35.5609243,19.3109495 32.9241909,20.5 30.0094932,20.5 L30.0094932,20.5 L9.99050677,20.5 C7.14626154,20.5 4.56639324,19.3679366 2.67675543,17.5287725 C0.782448937,15.6850644 -0.418130086,13.1306858 -0.49597372,10.2937978 C-0.498162151,7.25597731 0.662425032,4.576654 2.53794226,2.64603293 C4.43906304,0.689056047 7.07580212,-0.5 9.99050677,-0.5 L9.99050677,-0.5 Z"
                                   stroke="#ffffff"
-                                  fill="#034C43"
+                                  fill="#4d8fdb"
                                 ></path>
                                 <path
                                   d="M30,18 C34.418278,18 38,14.418278 38,10 C38,5.581722 34.418278,2 30,2 C25.581722,2 22,5.581722 22,10 C22,14.418278 25.581722,18 30,18 Z"
@@ -597,7 +590,7 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                                 <path
                                   d="M30.0094932,-0.5 C32.8534346,-0.5 35.4330697,0.632406246 37.3226603,2.47154687 C39.2173227,4.31562389 40.4181217,6.87029149 40.4959736,9.70631513 C40.4981622,12.7440885 39.3375699,15.4233885 37.4620437,17.3539966 C35.5609243,19.3109495 32.9241909,20.5 30.0094932,20.5 L30.0094932,20.5 L9.99050677,20.5 C7.14626154,20.5 4.56639324,19.3679366 2.67675543,17.5287725 C0.782448937,15.6850644 -0.418130086,13.1306858 -0.49597372,10.2937978 C-0.498162151,7.25597731 0.662425032,4.576654 2.53794226,2.64603293 C4.43906304,0.689056047 7.07580212,-0.5 9.99050677,-0.5 L9.99050677,-0.5 Z"
                                   stroke="#ffffff"
-                                  fill="#034C43"
+                                  fill="#4d8fdb"
                                 ></path>
                                 <path
                                   d="M 10 18 C 14.4183 18 18 14.4183 18 10 C 18 5.5817 14.4183 2 10 2 C 5.5817 2 2 5.5817 2 10 C 2 14.4183 5.5817 18 10 18 Z"
@@ -646,7 +639,7 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                                 <path
                                   d="M30.0094932,-0.5 C32.8534346,-0.5 35.4330697,0.632406246 37.3226603,2.47154687 C39.2173227,4.31562389 40.4181217,6.87029149 40.4959736,9.70631513 C40.4981622,12.7440885 39.3375699,15.4233885 37.4620437,17.3539966 C35.5609243,19.3109495 32.9241909,20.5 30.0094932,20.5 L30.0094932,20.5 L9.99050677,20.5 C7.14626154,20.5 4.56639324,19.3679366 2.67675543,17.5287725 C0.782448937,15.6850644 -0.418130086,13.1306858 -0.49597372,10.2937978 C-0.498162151,7.25597731 0.662425032,4.576654 2.53794226,2.64603293 C4.43906304,0.689056047 7.07580212,-0.5 9.99050677,-0.5 L9.99050677,-0.5 Z"
                                   stroke="#ffffff"
-                                  fill="#034C43"
+                                  fill="#4d8fdb"
                                 ></path>
                                 <path
                                   d="M30,18 C34.418278,18 38,14.418278 38,10 C38,5.581722 34.418278,2 30,2 C25.581722,2 22,5.581722 22,10 C22,14.418278 25.581722,18 30,18 Z"
@@ -724,7 +717,7 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
                                 <path
                                   d="M30.0094932,-0.5 C32.8534346,-0.5 35.4330697,0.632406246 37.3226603,2.47154687 C39.2173227,4.31562389 40.4181217,6.87029149 40.4959736,9.70631513 C40.4981622,12.7440885 39.3375699,15.4233885 37.4620437,17.3539966 C35.5609243,19.3109495 32.9241909,20.5 30.0094932,20.5 L30.0094932,20.5 L9.99050677,20.5 C7.14626154,20.5 4.56639324,19.3679366 2.67675543,17.5287725 C0.782448937,15.6850644 -0.418130086,13.1306858 -0.49597372,10.2937978 C-0.498162151,7.25597731 0.662425032,4.576654 2.53794226,2.64603293 C4.43906304,0.689056047 7.07580212,-0.5 9.99050677,-0.5 L9.99050677,-0.5 Z"
                                   stroke="#ffffff"
-                                  fill="#034C43"
+                                  fill="#4d8fdb"
                                 ></path>
                                 <path
                                   d="M30,18 C34.418278,18 38,14.418278 38,10 C38,5.581722 34.418278,2 30,2 C25.581722,2 22,5.581722 22,10 C22,14.418278 25.581722,18 30,18 Z"
@@ -779,14 +772,14 @@ export default function CookieForm({ show, setShow, cancel, setCancel }) {
             <div className="flex md:flex-row flex-col md:space-y-0 space-y-4 md:justify-between">
               <div
                 onClick={cancelCookie}
-                className="md:w-[16rem] w-full text-center py-2.5 bg-[#034C43] text-white hover:cursor-pointer transition-all ease-in-out duration-200 hover:bg-opacity-90"
+                className="md:w-[16rem] w-full text-center py-2.5 bg-[#4d8fdb] text-white hover:cursor-pointer transition-all ease-in-out duration-200 hover:bg-opacity-90"
               >
                 Einstellungen oder ablehnen
               </div>
               <div
-               style={{ border:'1px solid #034C43'}}
+                style={{ border: '1px solid #4d8fdb' }}
                 onClick={aceptCookie}
-                className="md:w-[16rem] w-full text-center py-2.5 text-[#034C43] hover:cursor-pointer transition-all ease-in-out duration-200 hover:bg-opacity-90"
+                className="md:w-[16rem] w-full text-center py-2.5 text-[#4d8fdb] hover:cursor-pointer transition-all ease-in-out duration-200 hover:bg-opacity-90"
               >
                 Alles Akzeptieren
               </div>

@@ -33,70 +33,78 @@ header {
         }
       }
       a {
-        display: block;
+        display: inline-block; /* Inline-block for proper positioning */
         color: #fff;
         font-size: 15px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
-        cursor: pointer;
-        a {
-          text-decoration: none; /* Remove default underline */
-          color: inherit; /* Ensure text color remains consistent */
-          position: relative;
-        }
-
-        a:hover,
-        a:focus {
-          text-decoration: underline; /* Add underline on hover */
-        }
-
-        @include breakpoint("md-max") {
-          color: #fff;
-          font-size: 11px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
-        }
-
-        @include breakpoint("sm-max") {
-          display: none;
-        }
+        text-decoration: none; /* Remove the default underline */
+        position: relative; /* Needed for positioning the pseudo-element */
       }
 
-      button {
-        border: none;
-        cursor: pointer;
-        color: #4b4b4b;
-        text-align: center;
-        font-size: 15px;
+      /* Create the underline effect */
+      a::after {
+        content: ""; /* Empty content for the pseudo-element */
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0; /* Start with zero width */
+        height: 2px; /* Set the thickness of the underline */
+        background: #fff; /* Underline color */
+        transition: width 0.3s ease; /* Animation for the underline */
+      }
+
+      /* On hover, expand the underline from left to right */
+      a:hover::after {
+        width: 100%; /* Expand the underline to full width */
+      }
+
+      @include breakpoint("md-max") {
+        color: #fff;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+
+      @include breakpoint("sm-max") {
+        display: none;
+      }
+    }
+
+    button {
+      border: none;
+      cursor: pointer;
+      color: #4b4b4b;
+      text-align: center;
+      font-size: 15px;
+      border-radius: 5px;
+      background: #fff;
+      padding: 8px 25px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
         border-radius: 5px;
-        background: #fff;
-        padding: 8px 25px;
+        background: #0b4479;
+        transition: 0.3s ease-in-out;
+        color: #fff;
+        transform: translate(0, -3px);
+      }
+
+      @include breakpoint("md-max") {
+        font-size: 11px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        transition: 0.3s ease-in-out;
+        padding: 8px 20px;
+      }
 
-        &:hover {
-          border-radius: 5px;
-          background: #0b4479;
-          transition: 0.3s ease-in-out;
-          color: #fff;
-          transform: translate(0, -3px);
-        }
-
-        @include breakpoint("md-max") {
-          font-size: 11px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: normal;
-          padding: 8px 20px;
-        }
-
-        @include breakpoint("sm-max") {
-          padding: 8px 17px;
-        }
+      @include breakpoint("sm-max") {
+        padding: 8px 17px;
       }
     }
   }

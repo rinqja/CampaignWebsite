@@ -8,23 +8,23 @@ export default function AboutSection() {
         <div className="richtungswechsel-all-contnet-alignment">
           <div className="grid">
             <div className="grid-items">
-              <p>LEADERSHIP FOR CHANGE</p>
+              <p>BËHU NDRYSHIMI</p>
             </div>
             <div className="grid-items">
               <h1>NDËRTOJMË SË BASHKU NJË TË ARDHMJE MË TË MIRË</h1>
               <span>
-              Si kandidati juaj për deputet, jam i përkushtuar
-              të sjell ndryshime domethënëse nëpërmjet politikave inovative 
-              dhe shërbimit publik të dedikuar. Me 15 vjet përvojë në zhvillimin e 
-              komunitetit dhe hartimin e politikave, rezultatet e mia tregojnë përkushtim 
-              të vazhdueshëm në përmirësimin e arsimit, aksesit në kujdesin shëndetësor 
-              dhe mundësive ekonomike për të gjithë qytetarët.
+                Si kandidati juaj për deputet, jam i përkushtuar
+                të sjell ndryshime domethënëse nëpërmjet politikave inovative
+                dhe shërbimit publik të dedikuar. Me 15 vjet përvojë në zhvillimin e
+                komunitetit dhe hartimin e politikave, rezultatet e mia tregojnë përkushtim
+                të vazhdueshëm në përmirësimin e arsimit, aksesit në kujdesin shëndetësor
+                dhe mundësive ekonomike për të gjithë qytetarët.
               </span>
               <span>
-              Së bashku, mund të ndërtojmë një komunitet më të fortë dhe më të begatë që punon për secilin prej nesh.
+                Së bashku, mund të ndërtojmë një komunitet më të fortë dhe më të begatë që punon për secilin prej nesh.
               </span>
               <div className="btn-alignment">
-                <a href="#kontact">
+                <a href="#kontakt">
                   <button>Bashkohu me kampanjenë tonë</button>
                 </a>
                 <a href="#uberuns">Rreth meje</a>

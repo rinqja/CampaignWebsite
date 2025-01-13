@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef,useEffect,useState } from "react";
+import { useRef, useEffect, useState } from "react";
 import "./richtungswechselsection.scss";
 import TrueIcon from "../../../assets/icons/true-two.svg";
 import ArrowIcon from "../../../assets/icons/arrow.svg";
@@ -7,7 +7,7 @@ import ArrowIcon from "../../../assets/icons/arrow.svg";
 export default function NewsSection() {
 
   const playerContainerRef = useRef(null);
-  
+
   const [showAll, setShowAll] = useState(false);
 
   const iconGrids = [
@@ -43,27 +43,27 @@ export default function NewsSection() {
   }, []);
   return (
     <div className="richtungswechsel-section-all-contnet-alignment">
-       <div className="text">
-          <h4>LAJMET E FUNDIT NGA FUSHATA</h4>
-          <div className="line"></div>
+      <div className="text" id="news">
+        <h4>LAJMET E FUNDIT NGA FUSHATA</h4>
+        <div className="line"></div>
 
-        </div>
-        
+      </div>
+
       <div className="container3">
-      <div className="video-wrapper">
-  <div className="video-center">
-    <iframe 
-      src="https://player.vimeo.com/video/1030024639?h=e9d9e42d23" 
-      frameborder="0" 
-      allow="fullscreen; picture-in-picture" 
-      style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} 
-      title="Richtungswechsel">
-    </iframe>
-  </div>
-  <div className="header-mobile">
-  <h5>MOMENTET KRYESORE TË FUSHATËS</h5>
+        <div className="video-wrapper">
+          <div className="video-center">
+            <iframe
+              src="https://player.vimeo.com/video/1030024639?h=e9d9e42d23"
+              frameborder="0"
+              allow="fullscreen; picture-in-picture"
+              style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}
+              title="Richtungswechsel">
+            </iframe>
+          </div>
+          <div className="header-mobile">
+            <h5>MOMENTET KRYESORE TË FUSHATËS</h5>
+          </div>
         </div>
-</div>
         {/* <div className="line"></div> */}
         {/* <div className="sec-text">
           <p>
@@ -91,25 +91,25 @@ Statt Leads zu kaufen, warum nicht besser die Kraft deiner eigenen Marke nutzen?
             Anbietern.
           </span>
         </div> */}
-        <div className="heading">
-        <h5>MOMENTET KRYESORE TË FUSHATËS</h5>
+        <div className="heading" id="heading">
+          <h5>MOMENTET KRYESORE TË FUSHATËS</h5>
         </div>
-        
+
         <div className="icon-grid-container">
-        {iconGridsToShow.map((grid, index) => (
-          <div className="icon-grid" key={index}>
-            <span>{grid.text}</span>
-            <img src={TrueIcon} alt="TrueIcon" />
-          </div>
-        ))}
-      </div>
-    
-        <div onClick={() => setShowAll(true)}className="arrow-design">
-          <span>View More Updates</span>
+          {iconGridsToShow.map((grid, index) => (
+            <div className="icon-grid" key={index}>
+              <span>{grid.text}</span>
+              <img src={TrueIcon} alt="TrueIcon" />
+            </div>
+          ))}
+        </div>
+
+        <div onClick={() => setShowAll(true)} className="arrow-design">
+          <span>Mëso më shumë</span>
           <img src={ArrowIcon} alt="ArrowIcon" />
-       
-      </div>
-       
+
+        </div>
+
       </div>
     </div>
   );

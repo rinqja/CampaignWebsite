@@ -15,7 +15,7 @@ export default function GetInvolvedSection() {
           <div className="imguppertext">
             <div className="spacer">
               <div className="text-style">
-                <h5>“</h5>
+                <h5></h5>
                 <h6>
                   PËR <br />
                   NJË TË ARDHMJE
