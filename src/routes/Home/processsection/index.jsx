@@ -95,11 +95,11 @@ export default function Processsection({ data }) {
             ))}
           </div>
         </div>
-        
+
         <div className="h-m">
           <div className="new-contnet-alignment-design-style" onClick={() => setToggle(!toggle)}>
             <a>{toggle ? 'Trego Më Pak' : 'Trego Më Shumë'}</a>
-            <img className={toggle ? "animation-time rotate" : "animation-time"} src={DownIcon} alt="DownIcon"/>
+            <img className={toggle ? "animation-time rotate" : "animation-time"} src={DownIcon} alt="DownIcon" />
           </div>
         </div>
       </div>

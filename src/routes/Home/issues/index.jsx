@@ -35,6 +35,7 @@ export default function IssuesSection({ data }) {
         </div>
         <AnimatedSection animationType="fade-up" duration={1000} delay={900}>
           <div className="line"></div>
+          <div className="line"></div>
         </AnimatedSection>
         <div className="grid">
           <AnimatedSection animationType="fade-up" duration={1000} delay={400}>

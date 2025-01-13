@@ -9,10 +9,11 @@ header {
 
     .logo {
       img {
+        width: 104px;
+        height: 104px;
         cursor: pointer;
 
         @include breakpoint("sm-max") {
-          max-width: 145px;
         }
       }
     }
@@ -39,6 +40,16 @@ header {
         font-weight: 500;
         line-height: normal;
         cursor: pointer;
+        a {
+          text-decoration: none; /* Remove default underline */
+          color: inherit; /* Ensure text color remains consistent */
+          position: relative;
+        }
+
+        a:hover,
+        a:focus {
+          text-decoration: underline; /* Add underline on hover */
+        }
 
         @include breakpoint("md-max") {
           color: #fff;
