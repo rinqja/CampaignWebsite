@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import './herobanner.scss';
+
 import Header from '../../../components/layout/header/header';
 export default function Herobanner() {
   return (

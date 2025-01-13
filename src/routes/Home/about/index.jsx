@@ -1,28 +1,23 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 import "./about.scss";
-import ArrowIcon from "../../../assets/icons/arrow.svg";
-export default function AboutSection() {
+
+import ArrowIcon from '../../../assets/icons/arrow.svg';
+
+export default function AboutSection({ data }) {
   return (
     <div className="richtungswechsel-sapcer">
       <div className="container">
         <div className="richtungswechsel-all-contnet-alignment">
           <div className="grid">
             <div className="grid-items">
-              <p>LEADERSHIP FOR CHANGE</p>
+              <p>{data.mainMessage}</p>
             </div>
             <div className="grid-items">
-              <h1>NDËRTOJMË SË BASHKU NJË TË ARDHMJE MË TË MIRË</h1>
-              <span>
-              Si kandidati juaj për deputet, jam i përkushtuar
-              të sjell ndryshime domethënëse nëpërmjet politikave inovative 
-              dhe shërbimit publik të dedikuar. Me 15 vjet përvojë në zhvillimin e 
-              komunitetit dhe hartimin e politikave, rezultatet e mia tregojnë përkushtim 
-              të vazhdueshëm në përmirësimin e arsimit, aksesit në kujdesin shëndetësor 
-              dhe mundësive ekonomike për të gjithë qytetarët.
-              </span>
-              <span>
-              Së bashku, mund të ndërtojmë një komunitet më të fortë dhe më të begatë që punon për secilin prej nesh.
-              </span>
+              <h1>{data.heading}</h1>
+              {data.description.map((text, index) => (
+                <span key={index}>{text}</span>
+              ))}
               <div className="btn-alignment">
                 <a href="#kontact">
                   <button>Bashkohu me kampanjenë tonë</button>
@@ -33,7 +28,7 @@ export default function AboutSection() {
           </div>
           <a href="#Leistungen">
             <div className="arrow-text">
-              <span>Klikoni për të parë më shumë</span>
+              <span>{data.scrollText}</span>
               <img src={ArrowIcon} alt="ArrowIcon" />
             </div>
           </a>
@@ -42,3 +37,12 @@ export default function AboutSection() {
     </div>
   );
 }
+
+AboutSection.propTypes = {
+  data: PropTypes.shape({
+    mainMessage: PropTypes.string.isRequired,
+    heading: PropTypes.string.isRequired,
+    description: PropTypes.arrayOf(PropTypes.string).isRequired,
+    scrollText: PropTypes.string.isRequired,
+  }).isRequired,
+};

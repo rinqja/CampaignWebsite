@@ -7,115 +7,66 @@ import RedIcon3 from "../../../assets/imges/three.png";
 import RedIcon4 from "../../../assets/imges/four.png";
 import AnimatedSection from "../../../components/Animation";
 
-export default function AboutSection() {
+export default function IssuesSection({ data }) {
   return (
     <div className="diesesection-all-contnet-alignment">
       <div className="container2">
-      <AnimatedSection animationType="fade-up" duration={1000} delay={300}>
-        <div className="text">
-          <h2>PRIORITETET KRYESORE</h2>
-        </div>
+        <AnimatedSection animationType="fade-up" duration={1000} delay={300}>
+          <div className="text">
+            <h2>{data.title}</h2>
+          </div>
         </AnimatedSection>
         <div className="box-center-alignment">
           <div className="box">
-          <AnimatedSection animationType="fade-up" duration={1000} delay={400}>
-            <div className="icon-text">
-              <img src={TrueIcon} alt="TrueIcon" />
-              <span>
-              Reforma në Arsim: Modernizimi i shkollave tona dhe rritja e 
-              aksesit në arsim cilësor për të gjithë nxënësit, pavarësisht prejardhjes së tyre.        
-              </span>
-            </div>
-            </AnimatedSection>
-            <AnimatedSection animationType="fade-up" duration={1000} delay={500}>
-            <div className="icon-text">
-              <img src={TrueIcon} alt="TrueIcon" />
-              <span>Zhvillimi Ekonomik: Krijimi i mundësive për punësim dhe mbështetja e bizneseve 
-                lokale përmes iniciativave të synuara dhe reduktimit të burokracisë.</span>
-            </div>
-            </AnimatedSection>
-            <AnimatedSection animationType="fade-up" duration={1000} delay={600}>
-            <div className="icon-text">
-              <img src={TrueIcon} alt="TrueIcon" />
-              <span>Aksesi në Kujdesin Shëndetësor: Përmirësimi i objekteve mjekësore dhe sigurimi 
-                i shërbimeve shëndetësore të përballueshme për të gjithë anëtarët e komunitetit.</span>
-            </div>
-            </AnimatedSection>
-            <AnimatedSection animationType="fade-up" duration={1000} delay={650}>
-            <div className="icon-text">
-              <img src={TrueIcon} alt="TrueIcon" />
-              <span> Mbrojtja e Mjedisit: Zbatimi i politikave të qëndrueshme dhe iniciativave të 
-                gjelbra për të mbrojtur mjedisin tonë për brezat e ardhshëm.</span>
-            </div>
-            </AnimatedSection>
-           
-           
+            {data.items.map((item, index) => (
+              <AnimatedSection 
+                key={index}
+                animationType="fade-up" 
+                duration={1000} 
+                delay={400 + (index * 100)}
+              >
+                <div className="icon-text">
+                  <img src={TrueIcon} alt="TrueIcon" />
+                  <span>{item.text}</span>
+                </div>
+              </AnimatedSection>
+            ))}
           </div>
         </div>
         <AnimatedSection animationType="fade-up" duration={1000} delay={900}>
-        <div className="line"></div>
+          <div className="line"></div>
         </AnimatedSection>
         <div className="grid">
-        <AnimatedSection animationType="fade-up" duration={1000} delay={400}>
-          <div className="grid-items">
-            <div>
-            <h3>
-            SHKËPUTJE <br />
-            NGA E <br />
-            KALUARA 
-            </h3>
-<div className="relative-div">
-  <span>{`->`} Politika të Vjetruara</span>
-  <img src={RedIcon} alt="RedIcon"/>
-</div>
-<div className="relative-div1">
-  <span>{`->`} Inefiçencë Burokratike</span>
-  <img src={RedIcon2} alt="RedIcon2"/>
-</div>
-<div className="relative-div-3">
-  <span>{`->`} Shërbime Publike të Pamjaftueshme</span>
-  <img src={RedIcon3} alt="RedIcon3"/>
-</div>
-<div className="relative-div-4">
-  <span>
-    {`->`} Programe Komunitare të Nënfinancuara
-  </span>
-  <img src={RedIcon4} alt="RedIcon4"/>
-</div>
-              
+          <AnimatedSection animationType="fade-up" duration={1000} delay={400}>
+            <div className="grid-items">
+              <div>
+                <h3>{data.pastIssues.title}</h3>
+                {data.pastIssues.items.map((item, index) => (
+                  <div key={index} className={`relative-div${index > 0 ? index : ''}`}>
+                    <span>{`->`} {item.text}</span>
+                    <img src={[RedIcon, RedIcon2, RedIcon3, RedIcon4][index]} alt={`RedIcon${index + 1}`}/>
+                  </div>
+                ))}
+              </div>
+              <a href="#kontact">
+                <button>{data.modernApproach.buttonText}</button>
+              </a>
             </div>
-            <a href="#kontact">
-            <button>Mëso më shumë</button>
-            </a>
-          </div>
           </AnimatedSection>
           <AnimatedSection animationType="fade-up" duration={1000} delay={600}>
-          <div className="grid-items">
-            <div>
-            <h3>
-            KOHA PËR TË   <br /> MODERNIZUAR<br />
-            QASJEN TONË
-</h3>
-<div className="text">
-  <p>
-  Rrugë të reja, mundësi të reja! Po prezantojmë zgjidhje inovative për sfidat 
-  më urgjente të komunitetit tonë.
-  </p>
-  <p>
-  Krijojmë një trashëgimi të re. Do të zbatojmë një sistem modern të qeverisjes, 
-  do të vendosim procese efikase dhe do të heqim procedurat e vjetruara që kanë penguar 
-  rritjen dhe zhvillimin tonë.
-  </p>
-  <p>
-  Së bashku me ekspertë të pavarur dhe liderë të komunitetit, 
-  po ndërtojmë një të ardhme të suksesshme dhe të qëndrueshme.
-  </p>
-</div>
+            <div className="grid-items">
+              <div>
+                <h3>{data.modernApproach.title}</h3>
+                <div className="text">
+                  {data.modernApproach.description.map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
+                </div>
+              </div>
+              <a href="#Leistungen">
+                <button>{data.modernApproach.buttonText}</button>
+              </a>
             </div>
-            <a href="#Leistungen">
-            <button>Mëso më shumë</button>
-            </a>
-          </div>
           </AnimatedSection>
         </div>
       </div>

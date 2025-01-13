@@ -78,9 +78,10 @@
         line-height: 95.023%; /* 14.253px */
         letter-spacing: 0.75px;
         transition: 0.3s ease-in-out;
+        border-radius: 8px;
 
         &:hover {
-          border-radius: 5px;
+          border-radius: 8px;
           background: rgba(255, 255, 255, 0.20);
           transition: 0.3s ease-in-out;
           color: #fff;
@@ -201,6 +202,7 @@
         border: none;
         padding: 0 20px;
         color: #000;
+        border-radius: 8px;
 
         &:focus {
           outline: none;
@@ -215,6 +217,7 @@
         border: none;
         padding: 20px;
         color: #000;
+        border-radius: 8px;
 
         &:focus {
           outline: none;

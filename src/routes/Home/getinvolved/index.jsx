@@ -3,7 +3,13 @@ import "./getinvolved.scss";
 import ManImage from "../../../assets/imges/man.png";
 import MobileManImage from "../../../assets/imges/mobile-men.png";
 import BoxImage from "../../../assets/imges/box.svg";
-export default function GetInvolvedSection() {
+
+export default function GetInvolvedSection({ data }) {
+  if (!data) {
+    console.error('Invalid or missing data prop');
+    return null;
+  }
+
   return (
     <div className="richtungs-section-all-contnet-alignment" id="uberuns">
       <div className="grid">
@@ -15,16 +21,19 @@ export default function GetInvolvedSection() {
           <div className="imguppertext">
             <div className="spacer">
               <div className="text-style">
-                <h5>“</h5>
+                <h5>"</h5>
                 <h6>
-                  PËR <br />
-                  NJË TË ARDHMJE
-                  <br /> MË TË MIRË
+                  {data.quote.text.split(' ').map((word, index) => (
+                    <React.Fragment key={index}>
+                      {word}
+                      <br />
+                    </React.Fragment>
+                  ))}
                 </h6>
               </div>
               <div className="left-content-alignment">
                 <div className="line"></div>
-                <span>Arben Gashi, Kandidat</span>
+                <span>{data.quote.author}</span>
               </div>
             </div>
           </div>
@@ -34,22 +43,14 @@ export default function GetInvolvedSection() {
             <div className="box-image">
               <img src={BoxImage} alt="BoxImage" />
             </div>
-            <h2>BASHKOHUNI ME NE</h2>
-            <span>
-              A keni menduar ndonjëherë se si mund të bëni një ndryshim të vërtetë në komunitetin tuaj? Tani është koha për të vepruar.
-            </span>
-            <span>
-              Bashkohuni me ne për të ndërtuar një të ardhme më të mirë për të gjithë. Lëvizja jonë është e krijuar për qytetarë të angazhuar dhe të përkushtuar si ju.
-            </span>
-            <p>
-              Sa herë keni dëshiruar të shihni ndryshime reale, por keni ndjerë se zëri juaj nuk është dëgjuar? Ne besojmë se çdo zë ka rëndësi.
-            </p>
-            <p>
-              Ne jemi qytetarë si ju, të përkushtuar për të sjellë ndryshime pozitive. Së bashku, mund të krijojmë politika që reflektojnë nevojat dhe aspiratat e komunitetit tonë.
-            </p>
-            <p>
-              Dëshironi të bëheni pjesë e ndryshimit? Mos hezitoni. Bashkohuni me ne dhe kontribuoni në ndërtimin e një të ardhmeje më të mirë për vendin tonë.
-            </p>
+            <h2>{data.title}</h2>
+            {data.content.map((text, index) => (
+              index < 2 ? (
+                <span key={index}>{text}</span>
+              ) : (
+                <p key={index}>{text}</p>
+              )
+            ))}
           </div>
         </div>
       </div>
