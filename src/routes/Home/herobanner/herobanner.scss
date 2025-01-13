@@ -43,11 +43,11 @@
 
   @include breakpoint("md-max") {
     height: 529px;
-    background-image: url("../../../assets/imges/tab-banner.png");
+    background-image: url("../../../assets/imges/lumir1.jpg");
   }
   @include breakpoint("sm-max") {
     height: 529px;
-    background-image: url("../../../assets/imges/mobile-banner.png");
+    background-image: url("../../../assets/imges/lumir1.jpg");
   }
 
   .container {
