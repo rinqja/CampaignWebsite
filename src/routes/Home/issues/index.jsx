@@ -10,7 +10,7 @@ import AnimatedSection from "../../../components/Animation";
 export default function IssuesSection({ data }) {
   return (
     <div className="diesesection-all-contnet-alignment">
-      <div className="container2">
+      <div className="container2" id="container2">
         <AnimatedSection animationType="fade-up" duration={1000} delay={300}>
           <div className="text">
             <h2>{data.title}</h2>
@@ -34,7 +34,6 @@ export default function IssuesSection({ data }) {
           </div>
         </div>
         <AnimatedSection animationType="fade-up" duration={1000} delay={900}>
-          <div className="line"></div>
           <div className="line"></div>
         </AnimatedSection>
         <div className="grid">
@@ -60,7 +59,8 @@ export default function IssuesSection({ data }) {
                 <h3>{data.modernApproach.title}</h3>
                 <div className="text">
                   {data.modernApproach.description.map((paragraph, index) => (
-                    <p key={index}>{paragraph}</p>
+                    
+                    <p key={index}>{`->`}{paragraph}</p>
                   ))}
                 </div>
               </div>

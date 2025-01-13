@@ -3,8 +3,6 @@ import "./getinvolved.scss";
 import ManImage from "../../../assets/imges/ibrahim.jpg";
 import MobileManImage from "../../../assets/imges/mobile-men.png";
 import BoxImage from "../../../assets/logo/logo.png";
-export default function GetInvolvedSection() {
-import BoxImage from "../../../assets/imges/box.svg";
 
 export default function GetInvolvedSection({ data }) {
   if (!data) {
@@ -23,14 +21,16 @@ export default function GetInvolvedSection({ data }) {
           <div className="imguppertext">
             <div className="spacer">
               <div className="text-style">
-                <h5>"</h5>
                 <h6>
-                  {data.quote.text.split(' ').map((word, index) => (
+                  {data.quote.text}<br/>
+                  {data.quote.text2}<br/>
+                  {data.quote.text3}
+                  {/* {data.quote.text.split(' ').map((word, index) => (
                     <React.Fragment key={index}>
                       {word}
                       <br />
                     </React.Fragment>
-                  ))}
+                  ))} */}
                 </h6>
               </div>
               <div className="left-content-alignment">

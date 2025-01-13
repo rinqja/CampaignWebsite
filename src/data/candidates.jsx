@@ -65,15 +65,14 @@ export const candidates = [
           { text: "Politika të Vjetruara" },
           { text: "Inefiçencë Burokratike" },
           { text: "Shërbime Publike të Pamjaftueshme" },
-          { text: "Programe Komunitare të Nënfinancuara" }
         ]
       },
       modernApproach: {
         title: "KOHA PËR TË MODERNIZUAR QASJEN TONË",
         description: [
-          "Rrugë të reja, mundësi të reja! Po prezantojmë zgjidhje inovative për sfidat më urgjente të komunitetit tonë.",
-          "Krijojmë një trashëgimi të re. Do të zbatojmë një sistem modern të qeverisjes, do të vendosim procese efikase dhe do të heqim procedurat e vjetruara që kanë penguar rritjen dhe zhvillimin tonë.",
-          "Së bashku me ekspertë të pavarur dhe liderë të komunitetit, po ndërtojmë një të ardhme të suksesshme dhe të qëndrueshme."
+          "Rrugë të reja, mundësi të reja! ",
+          "Krijojmë një trashëgimi të re. ",
+          "Me ekspertë dhe liderë , ndërtojmë të ardhmen "
         ],
         buttonText: "Mëso më shumë"
       }
@@ -82,7 +81,7 @@ export const candidates = [
     // News Section
     news: {
       title: "LAJMET E FUNDIT NGA FUSHATA",
-      buttonText: "View More Updates",
+      buttonText: "Meso me shume",
       videoUrl: "https://player.vimeo.com/video/1030024639?h=e9d9e42d23",
       subtitle: "MOMENTET KRYESORE TË FUSHATËS",
       updates: [
@@ -241,9 +240,12 @@ export const candidates = [
 
     // Get Involved Section
     getInvolved: {
-      title: "BASHKOHUNI ME NE",
+      title: "BËHU NDRYSHIMI",
       quote: {
-        text: "PËR NJË TË ARDHMJE MË TË MIRË",
+        text: "PËR NJË",
+        text2: "TË ARDHME",
+        text3: "MË TË MIRË",
+
         author: "Arben Gashi, Kandidat"
       },
       content: [

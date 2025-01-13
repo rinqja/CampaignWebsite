@@ -82,7 +82,7 @@ export default function Processsection({ data }) {
 
           <div className="main-grid-items">
             {data.faq.slice(8, 12).map((item, index) => (
-              <div key={index} className={`flip-card ${index === 0 ? 'new3' : index === 1 ? 'new4' : index === 2 ? 'new5' : 'new6'}`}>
+              <div key={index} className={`flip-card ${index === 0 ? 'six' : index === 1 ? 'two' : index === 2 ? 'new1' : 'four'}`}>
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
                     <p>{item.question}</p>

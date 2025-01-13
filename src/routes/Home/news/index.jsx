@@ -19,7 +19,7 @@ export default function NewsSection({ data }) {
   const updatesToShow = showAll ? data.updates : data.updates.slice(0, 4);
 
   return (
-    <div className="richtungswechsel-section-all-contnet-alignment">
+    <div className="richtungswechsel-section-all-contnet-alignment" id="news">
       <div className="text">
         <h4>{data.title}</h4>
         <div className="line"></div>
