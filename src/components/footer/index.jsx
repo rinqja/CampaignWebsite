@@ -8,7 +8,7 @@ export default function Footer() {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = "https://s.provenexpert.net/seals/proseal-v2.js";
-    script.onload = function() {
+    script.onload = function () {
       window.provenExpert.proSeal({
         widgetId: "55a82de9-a98a-4430-be4f-dcf7ed616dc9",
         language: "de-DE",
@@ -33,7 +33,7 @@ export default function Footer() {
     <div>
       <footer>
         <div className="container8">
-        <div id="proSealWidget"></div>
+          <div></div>
           <div className="footer-content-alignment">
             <div className="left-contnet">
               <p>SOCIAL LINKS</p>

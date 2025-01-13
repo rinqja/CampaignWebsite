@@ -119,7 +119,7 @@
             }
             .line {
               width: 40px;
-              background: #034c43;
+              background: #237ee6;
               height: 1px;
 
               @include breakpoint("md-max") {
@@ -161,7 +161,7 @@
               }
             }
             h5 {
-              color: #034c43;
+              color: #237ee6;
               font-size: 120px;
               font-style: normal;
               margin: 0;
@@ -176,7 +176,7 @@
         img[alt="ManImage"] {
           @include breakpoint("sm-max") {
             display: none;
-          } 
+          }
         }
 
         img[alt="MobileManImage"] {

@@ -1,7 +1,7 @@
 @import "../../../../styles/mixins/index.scss";
 
 .kontact-section-all-contnet-alignment {
-  padding: 0 0 98px 0;
+  padding: 100px 98px 98px 0;
   border-bottom: 1px solid #fff;
 
   @include breakpoint("md-max") {
@@ -14,7 +14,7 @@
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 650px;
+    grid-template-columns: 150px 1fr;
     gap: 40px;
 
     @include breakpoint("md-max") {
@@ -46,7 +46,8 @@
           }
         }
 
-        p , a {
+        p,
+        a {
           display: block;
           color: #fff;
           font-size: 20px;
@@ -81,7 +82,7 @@
 
         &:hover {
           border-radius: 5px;
-          background: rgba(255, 255, 255, 0.20);
+          background: rgba(255, 255, 255, 0.2);
           transition: 0.3s ease-in-out;
           color: #fff;
           transform: translate(0, -3px);

@@ -104,15 +104,14 @@
     .flip-card {
       perspective: 1000px;
       border-radius: 30px;
-      background: #034c43;
+      background: #61a7f6;
       transition: 1s;
       margin: 0 0 20px 0;
       cursor: pointer;
 
       p {
-
         padding: 43px 34px;
-        color: #FFF;
+        color: #fff;
         font-size: 30px;
         text-align: left;
         font-style: normal;
@@ -175,7 +174,7 @@
 
     /* Style the back side */
     .flip-card-back {
-      background: #034c43;
+      background: #237ee6;
       border-radius: 30px;
       transform: rotateY(180deg);
 
@@ -213,7 +212,7 @@
       }
       .box {
         border-radius: 30px;
-        background: #034c43;
+        background: #237ee6;
         position: relative;
         transform-style: preserve-3d;
         perspective: 800px;
@@ -268,8 +267,6 @@
     }
   }
 
- 
-
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -283,7 +280,6 @@
 
     div {
       height: 100%;
-
 
       @include breakpoint("sm-max") {
         height: inherit;
@@ -383,7 +379,7 @@
   padding-left: 20px;
   padding-top: 50px;
   a {
-    color: #034c43;
+    color: #237ee6;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;

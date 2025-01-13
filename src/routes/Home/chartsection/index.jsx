@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef, useState,useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import "./chartsection.scss";
 import Chart1 from "../../../assets/imges/chart1.svg";
 import Chart2 from "../../../assets/imges/chart2.svg";
@@ -27,13 +27,13 @@ export default function Chartsection() {
   const circleContainerRef4 = useRef(null);
   const circleContainerRef5 = useRef(null);
 
-  
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         // Debugging: Log the entry to see if it's intersecting
         console.log("Is intersecting:1", entry.isIntersecting);
-  
+
         if (entry.isIntersecting && !animationPlayed) {
           setAnimate(true);
           setAnimationPlayed(true); // Ensure animation plays only once
@@ -46,11 +46,11 @@ export default function Chartsection() {
         threshold: 0.1, // Adjust this value based on when you want the animation to start
       }
     );
-  
+
     if (circleContainerRef5.current) {
       observer.observe(circleContainerRef5.current);
     }
-  
+
     return () => {
       // Cleanup: make sure to disconnect the observer
       observer.disconnect();
@@ -61,7 +61,7 @@ export default function Chartsection() {
       ([entry]) => {
         // Debugging: Log the entry to see if it's intersecting
         console.log("Is intersecting:1", entry.isIntersecting);
-  
+
         if (entry.isIntersecting && !animationPlayed) {
           setAnimate(true);
           setAnimationPlayed(true); // Ensure animation plays only once
@@ -74,11 +74,11 @@ export default function Chartsection() {
         threshold: 0.1, // Adjust this value based on when you want the animation to start
       }
     );
-  
+
     if (circleContainerRef.current) {
       observer.observe(circleContainerRef.current);
     }
-  
+
     return () => {
       // Cleanup: make sure to disconnect the observer
       observer.disconnect();
@@ -89,7 +89,7 @@ export default function Chartsection() {
       ([entry]) => {
         // Debugging: Log the entry to see if it's intersecting
         console.log("Is intersecting:1", entry.isIntersecting);
-  
+
         if (entry.isIntersecting && !animationPlayed) {
           setAnimate(true);
           setAnimationPlayed(true); // Ensure animation plays only once
@@ -102,23 +102,23 @@ export default function Chartsection() {
         threshold: 0.1, // Adjust this value based on when you want the animation to start
       }
     );
-  
+
     if (circleContainerRef3.current) {
       observer.observe(circleContainerRef3.current);
     }
-  
+
     return () => {
       // Cleanup: make sure to disconnect the observer
       observer.disconnect();
     };
-  }, [animationPlayed]); 
-  
+  }, [animationPlayed]);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         // Debugging: Log the entry to see if it's intersecting
         console.log("Is intersecting:2", entry.isIntersecting);
-  
+
         if (entry.isIntersecting && !animationPlayed) {
           setAnimate(true);
           setAnimationPlayed(true); // Ensure animation plays only once
@@ -131,22 +131,22 @@ export default function Chartsection() {
         threshold: 0.1, // Adjust this value based on when you want the animation to start
       }
     );
-  
+
     if (circleContainerRef2.current) {
       observer.observe(circleContainerRef2.current);
     }
-  
+
     return () => {
       // Cleanup: make sure to disconnect the observer
       observer.disconnect();
     };
-  }, [animationPlayed]); 
+  }, [animationPlayed]);
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         // Debugging: Log the entry to see if it's intersecting
         console.log("Is intersecting:3", entry.isIntersecting);
-  
+
         if (entry.isIntersecting && !animationPlayed) {
           setAnimate(true);
           setAnimationPlayed(true); // Ensure animation plays only once
@@ -159,23 +159,23 @@ export default function Chartsection() {
         threshold: 0.1, // Adjust this value based on when you want the animation to start
       }
     );
-  
+
     if (circleContainerRef1.current) {
       observer.observe(circleContainerRef1.current);
     }
-  
+
     return () => {
       // Cleanup: make sure to disconnect the observer
       observer.disconnect();
     };
-  }, [animationPlayed]); 
+  }, [animationPlayed]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         // Debugging: Log the entry to see if it's intersecting
         console.log("Is intersecting:3", entry.isIntersecting);
-  
+
         if (entry.isIntersecting && !animationPlayed) {
           setAnimate(true);
           setAnimationPlayed(true); // Ensure animation plays only once
@@ -188,17 +188,17 @@ export default function Chartsection() {
         threshold: 0.1, // Adjust this value based on when you want the animation to start
       }
     );
-  
+
     if (circleContainerRef4.current) {
       observer.observe(circleContainerRef4.current);
     }
-  
+
     return () => {
       // Cleanup: make sure to disconnect the observer
       observer.disconnect();
     };
-  }, [animationPlayed]); 
-  
+  }, [animationPlayed]);
+
   return (
     <>
       <div className="chart-section-all-contnet-alignment" id="Leistungen">
@@ -269,31 +269,23 @@ export default function Chartsection() {
                   <div>
                     <h2>SCHRITT 1</h2>
                     <p>
-                      Zunächst setzen wir uns mit deinen aktuellen
-                      Verkaufsmethoden auseinander. Wir identifizieren veraltete
-                      Methoden und ersetzen diese durch effektivere. Du bekommst
-                      von uns neue, moderne und erfolgreiche Skripte an die
-                      Hand, die auf deine Zielgruppe und dein Angebot
-                      maßgeschneidert sind. Durch unsere gezielten Module, sowie
-                      den Live-Calls wirst du mit unseren erfolgreich in der
-                      Praxis angewandten Skripten deine Beratungsqualität auf
-                      ein neues Level anheben und deinen Umsatz bei gleicher
-                      Terminkapazität mind. verdoppeln.
-                    </p>
+                      Fillimisht, analizojmë politikat dhe metodat e zbatuara nga partitë e tjera në ekonomi. Identifikojmë praktikat e vjetruara, të paefektshme dhe të dëmshme që kanë penguar zhvillimin ekonomik të vendit.
+
+                      Ne do të prezantojmë zgjidhje të reja, moderne dhe të suksesshme, të përshtatura për nevojat e qytetarëve dhe për një ekonomi të qëndrueshme. Përmes planeve tona të targetuara dhe implementimit të programeve të suksesshme, synojmë të transformojmë ekonominë dhe të përmirësojmë ndjeshëm mirëqenien e të gjithë qytetarëve                    </p>
                   </div>
                   <div>
                     <div className="two-chart-alignment">
                       <div>
-                        <h6>Markt</h6>
+                        <h6>Partite tjera</h6>
                         <div ref={circleContainerRef} className={`circle-container ${animate ? 'animate-border' : ''}`}>
-                        <div class="text-1"><div className="title-1">0-1 </div>Empfehlungen pro Kunde</div>
-                        </div>  
+                          <div class="text-1"><div className="title-1">0-1 </div>Empfehlungen pro Kunde</div>
+                        </div>
                       </div>
                       <div>
-                        <h6>Richtungswechsel</h6>
+                        <h6>Partia jone</h6>
                         <div ref={circleContainerRef} className={`circle-container7-8 ${animate ? 'animate-border4-6' : ''}`}>
-                        <div class="text-1"><div className="title-1">2-3 </div>Empfehlungen pro Kunde</div>
-                        </div>  
+                          <div class="text-1"><div className="title-1">2-3 </div>Empfehlungen pro Kunde</div>
+                        </div>
                       </div>
                     </div>
                     <div className="last-text">
@@ -329,16 +321,16 @@ export default function Chartsection() {
                   <div>
                     <div className="two-chart-alignment">
                       <div>
-                        <h6>Markt</h6>
+                        <h6>Partite tjera</h6>
                         <div ref={circleContainerRef2} className={`circle-container4-6 ${animate ? 'animate-border4-6' : ''}`}>
-                        <div class="text-1"><div className="title-1">4-6 </div>Abschlüsse aus 10 Terminen</div>
-                        </div>  
+                          <div class="text-1"><div className="title-1">4-6 </div>Abschlüsse aus 10 Terminen</div>
+                        </div>
                       </div>
                       <div>
-                        <h6>Richtungswechsel</h6>
+                        <h6>Partia jone</h6>
                         <div ref={circleContainerRef2} className={`circle-container7-8 ${animate ? 'animate-border7-8' : ''}`}>
-                        <div class="text-1"><div className="title-1">7-8 </div>Abschlüsse aus 10 Terminen</div>
-                        </div>  
+                          <div class="text-1"><div className="title-1">7-8 </div>Abschlüsse aus 10 Terminen</div>
+                        </div>
                       </div>
                     </div>
                     <div className="last-text">
@@ -374,16 +366,16 @@ export default function Chartsection() {
                   <div>
                     <div className="two-chart-alignment">
                       <div>
-                        <h6>Markt</h6>
+                        <h6>Partite tjera</h6>
                         <div ref={circleContainerRef1} className={`circle-container16 ${animate ? 'animate-border16' : ''}`}>
-                        <div class="text-1"><div className="title-1">16%</div>Zeit für gewinnbringende <br />Tätigkeiten</div>
-                        </div>  
+                          <div class="text-1"><div className="title-1">16%</div>Zeit für gewinnbringende <br />Tätigkeiten</div>
+                        </div>
                       </div>
                       <div>
-                        <h6>Richtungswechsel</h6>
+                        <h6>Partia jone</h6>
                         <div ref={circleContainerRef1} className={`circle-container7-8 ${animate ? 'animate-border7-8' : ''}`}>
-                        <div class="text-1"><div className="title-1">79%</div>Zeit für gewinnbringende <br />Tätigkeiten</div>
-                        </div>  
+                          <div class="text-1"><div className="title-1">79%</div>Zeit für gewinnbringende <br />Tätigkeiten</div>
+                        </div>
                       </div>
                     </div>
                     <div className="last-text">
@@ -391,7 +383,7 @@ export default function Chartsection() {
                         *Angaben aus + 1.000 befragten selbstständigen
                         Finanzberatern (mwd)
                       </span>
-                    </div> 
+                    </div>
                   </div>
                 </div>
               </AnimatedSection>
@@ -421,16 +413,16 @@ export default function Chartsection() {
                   <div>
                     <div className="two-chart-alignment">
                       <div>
-                        <h6>Markt</h6>
+                        <h6>Partite tjera</h6>
                         <div ref={circleContainerRef3} className={`circle-container16 ${animate ? 'animate-border16' : ''}`}>
-                        <div class="text-1"><div className="title-1">20%</div>Sichtbarkeit</div>
-                        </div> 
+                          <div class="text-1"><div className="title-1">20%</div>Sichtbarkeit</div>
+                        </div>
                       </div>
                       <div>
-                        <h6>Richtungswechsel</h6>
+                        <h6>Partia jone</h6>
                         <div ref={circleContainerRef3} className={`circle-container94 ${animate ? 'animate-border94' : ''}`}>
-                        <div class="text-1"><div className="title-1">94%</div>Sichtbarkeit</div>
-                        </div> 
+                          <div class="text-1"><div className="title-1">94%</div>Sichtbarkeit</div>
+                        </div>
                       </div>
                     </div>
                     <div className="last-text">
@@ -465,16 +457,16 @@ export default function Chartsection() {
                   <div>
                     <div className="two-chart-alignment">
                       <div>
-                        <h6>Markt</h6>
+                        <h6>Partite tjera</h6>
                         <div ref={circleContainerRef4} className={`circle-container37 ${animate ? 'animate-border37' : ''}`}>
-                        <div class="text-1"><div className="title-1">37%</div>Erfolgswahrscheinlichkeit <br />neuer Vertriebspartner</div>
-                        </div> 
+                          <div class="text-1"><div className="title-1">37%</div>Erfolgswahrscheinlichkeit <br />neuer Vertriebspartner</div>
+                        </div>
                       </div>
                       <div>
-                        <h6>Richtungswechsel</h6>
+                        <h6>Partia jone</h6>
                         <div ref={circleContainerRef4} className={`circle-container87 ${animate ? 'animate-border87' : ''}`}>
-                        <div class="text-1"><div className="title-1">87%</div>Erfolgswahrscheinlichkeit <br />neuer Vertriebspartner</div>
-                        </div> 
+                          <div class="text-1"><div className="title-1">87%</div>Erfolgswahrscheinlichkeit <br />neuer Vertriebspartner</div>
+                        </div>
                       </div>
                     </div>
                     <div className="last-text">
@@ -507,16 +499,16 @@ export default function Chartsection() {
                   <div>
                     <div className="two-chart-alignment">
                       <div>
-                        <h6>Markt</h6>
+                        <h6>Partite tjera</h6>
                         <div ref={circleContainerRef5} className={`circle-container37 ${animate ? 'animate-border37' : ''}`}>
-                        <div class="text-1"><div className="title-1">41%</div>Emotionale Intelligenz <br />und Resilienz</div>
-                        </div> 
+                          <div class="text-1"><div className="title-1">41%</div>Emotionale Intelligenz <br />und Resilienz</div>
+                        </div>
                       </div>
                       <div>
-                        <h6>Richtungswechsel</h6>
+                        <h6>Partia jone</h6>
                         <div ref={circleContainerRef5} className={`circle-container97 ${animate ? 'animate-border97' : ''}`}>
-                        <div class="text-1"><div className="title-1">97%</div>Emotionale Intelligenz <br />und Resilienz</div>
-                        </div> 
+                          <div class="text-1"><div className="title-1">97%</div>Emotionale Intelligenz <br />und Resilienz</div>
+                        </div>
                       </div>
                     </div>
                     <div className="last-text">

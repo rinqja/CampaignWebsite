@@ -161,7 +161,6 @@
       @include breakpoint("md-max") {
         padding: 52px 46px;
       }
-      
 
       .text {
         padding: 0 0 31px 0;
@@ -196,12 +195,12 @@
         padding: 18px 32px;
         font-weight: 400;
         width: fit-content;
-          transition: 0.3s ease-in-out;
-          line-height: normal;
+        transition: 0.3s ease-in-out;
+        line-height: normal;
 
         &:hover {
           border-radius: 5px;
-          background: #034c43;
+          background: #237ee6;
           transition: 0.3s ease-in-out;
           color: #fff;
           transform: translate(0, -3px);
@@ -283,7 +282,7 @@
 
         @include breakpoint("sm-max") {
           gap: 5px;
-        } 
+        }
 
         span {
           color: #fff;

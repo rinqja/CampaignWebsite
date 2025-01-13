@@ -1,6 +1,7 @@
 @import "../../../../styles/mixins/index.scss";
 
 header {
+  overflow: none;
   padding: 30px 0 0 0;
   .header-alignment {
     display: flex;
@@ -12,14 +13,14 @@ header {
         cursor: pointer;
 
         @include breakpoint("sm-max") {
-          max-width: 145px;
+          max-width: 235px;
         }
       }
     }
 
     nav {
       display: flex;
-      align-items: center;
+      align-items: space-around;
       gap: 40px;
 
       @include breakpoint("md-max") {
@@ -33,12 +34,29 @@ header {
       }
       a {
         display: block;
-        color: #fff;
+        color: rgb(26, 39, 81);
         font-size: 15px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
         cursor: pointer;
+        position: relative;
+        // Add padding here
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 2px;
+          bottom: -5px; // Adjust bottom to add padding to the underline
+          left: 0;
+          background-color: currentColor;
+          transition: width 0.3s ease-in-out;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
 
         @include breakpoint("md-max") {
           color: #fff;
@@ -69,7 +87,7 @@ header {
 
         &:hover {
           border-radius: 5px;
-          background: #034c43;
+          background: #237ee6;
           transition: 0.3s ease-in-out;
           color: #fff;
           transform: translate(0, -3px);

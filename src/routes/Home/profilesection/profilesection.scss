@@ -1,6 +1,7 @@
 @import "../../../../styles/mixins/index.scss";
 
 .profile-section-all-contnet-alignment {
+  display: none;
   padding: 163px 0 111px 0;
 
   @include breakpoint("md-max") {
@@ -129,12 +130,12 @@
               letter-spacing: -0.4px;
               margin: 0 0 10px 0;
             }
-            @include breakpoint("sm-max"){
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px; /* 133.333% */
-letter-spacing: -0.48px;
+            @include breakpoint("sm-max") {
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 16px; /* 133.333% */
+              letter-spacing: -0.48px;
             }
           }
         }
@@ -158,11 +159,11 @@ letter-spacing: -0.48px;
           }
 
           @include breakpoint("sm-max") {
-font-size: 10px;
-font-style: normal;
-font-weight: 700;
-line-height: 103.023%; /* 10.302px */
-letter-spacing: -0.4px;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 103.023%; /* 10.302px */
+            letter-spacing: -0.4px;
           }
         }
       }

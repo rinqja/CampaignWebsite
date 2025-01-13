@@ -17,14 +17,12 @@ export default function Richtungssection() {
               <div className="text-style">
                 <h5>“</h5>
                 <h6>
-                  FÜR <br />
-                  MAXIMALEN
-                  <br /> ERFOLG
+                  Unë besoj fort se Kosova meriton një të ardhme më të ndritshme, ku qytetarët tanë të kenë mundësi të barabarta për zhvillim dhe mirëqenie.
                 </h6>
               </div>
               <div className="left-content-alignment">
                 <div className="line"></div>
-                <span>Onur, Gründer</span>
+                <span>Emri i kandidatit</span>
               </div>
             </div>
           </div>
@@ -34,36 +32,27 @@ export default function Richtungssection() {
             <div className="box-image">
               <img src={BoxImage} alt="BoxImage" />
             </div>
-            <h2>RICHTUNGS WECHSEL</h2>
-            <span>
-              Hast du dich jemals gefragt, welcher Schlüssel zu einem wirklich
-              effektiven Finanzvertrieb ist? „Richtungswechsel“ könnte die
-              Antwort sein, nach der du gesucht hast.
-            </span>
-            <span>
-              Stell dir „Richtungswechsel“ als die optimale Verschmelzung von
-              Consulting und Agenturdienstleistungen vor. Aber nicht irgendeine
-              Kombination – sie ist maßgeschneidert für Finanzberater,
-              Handelsvertreter, Makler und Führungskräfte wie dich.
-            </span>
+            <h2>VIZIONI IM PËR KOSOVËN</h2>
             <p>
-              Wie oft hast du Dienstleistungen in Anspruch genommen, die
-              entweder eine Beratungs- oder Agenturkomponente vermissen ließen?
-              Oder Anbieter, die einfach nicht die erforderliche
-              Branchenkenntnis mitbrachten?
+              Të dashur qytetarë, Kosova ka nevojë për një drejtim të ri që
+              reflekton shpresat dhe ëndrrat e të gjithëve. Si kandidat për
+              deputet, vizioni im është i thjeshtë, por i fuqishëm: zhvillimi i
+              qëndrueshëm ekonomik, arsim cilësor dhe shëndetësi për të gjithë,
+              krijimi i vendeve të reja të punës dhe mbështetje për të rinjtë
+              tanë. Ne duhet të luftojmë korrupsionin, të modernizojmë
+              infrastrukturën dhe të krijojmë politika që i japin prioritet
+              qytetarit.
             </p>
             <p>
-              Wir sind aus der Praxis, für die Praxis. „Richtungswechsel“ hat
-              seine Wurzeln tief in der Finanzdienstleistungsbranche. Alles, was
-              wir tun – von unserem Expertenteams über unsere innovativen
-              Strategien bis hin zu unseren einzigartigen Prozessen und
-              modernsten bewährten Technologielösungen – wurde mit einem klaren
-              Ziel vor Augen entwickelt: Den Finanzvertrieb zu revolutionieren.
+              Me përkushtim dhe punë të palodhshme, unë jam i vendosur të
+              ndërtoj një Kosovë ku çdo zë dëgjohet dhe çdo qytetar ka një
+              mundësi për të arritur potencialin e tij. Besoj në një Kosovë ku
+              transparenca dhe drejtësia janë themeli i institucioneve tona.
             </p>
             <p>
-              Spürst du den Drang, mehr zu erfahren? Dann zögere nicht.
-              Kontaktiere uns jetzt und erfahre, wie „Richtungswechsel“ den
-              Unterschied in deinem Geschäft machen kann.
+              Le të bashkohemi për ta bërë këtë vizion realitet. Tani është
+              koha për ndryshim, dhe unë jam gati të punoj për ju dhe për të
+              ardhmen e fëmijëve tanë.
             </p>
           </div>
         </div>

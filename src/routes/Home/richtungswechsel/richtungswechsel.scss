@@ -29,11 +29,11 @@
     display: flex;
     gap: 11px;
     align-items: center;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
 
     &:hover {
-      transform: translate(0 , 5px);
-      transition: .3s ease-in-out;
+      transform: translate(0, 5px);
+      transition: 0.3s ease-in-out;
     }
 
     span {
@@ -47,7 +47,7 @@
   }
   .grid {
     display: grid;
-    grid-template-columns: 118px 1fr;
+    grid-template-columns: 30px 1fr;
     gap: 355px;
     padding: 0 0 27px 0;
 
@@ -64,7 +64,7 @@
     .grid-items {
       p {
         color: rgba(255, 255, 255, 0.7);
-        font-size: 20px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -103,7 +103,7 @@
 
           &:hover {
             border-radius: 5px;
-            background: #034c43;
+            background: #237ee6;
             transition: 0.3s ease-in-out;
             color: #fff;
             transform: translate(0, -3px);
@@ -156,8 +156,6 @@
           font-weight: 400;
           line-height: 135.523%; /* 16.263px */
         }
-
-    
       }
 
       h1 {
