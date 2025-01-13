@@ -18,7 +18,7 @@ export default function GetInvolvedSection() {
                 <h5></h5>
                 <h6>
                   PËR <br />
-                  NJË TË ARDHMJE
+                  NJË TË ARDHME
                   <br /> MË TË MIRË
                 </h6>
               </div>
