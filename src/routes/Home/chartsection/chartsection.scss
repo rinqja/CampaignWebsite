@@ -14,7 +14,6 @@
   }
   to {
     clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 71.07%);
-
   }
 }
 
@@ -28,49 +27,136 @@
 }
 @keyframes fillYellowBorder {
   from {
-    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+    clip-path: polygon(
+      50% 50%,
+      50% 0%,
+      50% 0%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%
+    );
   }
   to {
-    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 75%);
-    
+    clip-path: polygon(
+      50% 50%,
+      50% 0%,
+      100% 0%,
+      100% 50%,
+      100% 100%,
+      50% 100%,
+      0% 100%,
+      0% 75%
+    );
   }
 }
 @keyframes fillGreenBorder {
   from {
-    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+    clip-path: polygon(
+      50% 50%,
+      50% 0%,
+      50% 0%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%
+    );
   }
   to {
-    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 50%);
-    
+    clip-path: polygon(
+      50% 50%,
+      50% 0%,
+      100% 0%,
+      100% 50%,
+      100% 100%,
+      50% 100%,
+      0% 100%,
+      0% 50%
+    );
   }
 }
 @keyframes fillGreenBorder87 {
   from {
-    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+    clip-path: polygon(
+      50% 50%,
+      50% 0%,
+      50% 0%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%
+    );
   }
   to {
-    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 30.25%);
-  
+    clip-path: polygon(
+      50% 50%,
+      50% 0%,
+      100% 0%,
+      100% 50%,
+      100% 100%,
+      50% 100%,
+      0% 100%,
+      0% 30.25%
+    );
   }
 }
 @keyframes fillGreenBorder97 {
   from {
-    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+    clip-path: polygon(
+      50% 50%,
+      50% 0%,
+      50% 0%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%
+    );
   }
   to {
-    clip-path: polygon(50.25% 49.5%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 49.75%, 0% 0%, 28.75% 0%);
-
-  
+    clip-path: polygon(
+      50.25% 49.5%,
+      50% 0%,
+      100% 0%,
+      100% 50%,
+      100% 100%,
+      50% 100%,
+      0% 100%,
+      0% 49.75%,
+      0% 0%,
+      28.75% 0%
+    );
   }
 }
 @keyframes fillGreenBorder94 {
   from {
-    clip-path: polygon(50% 50%, 50% 0%, 50% 0%, 50% 50%,50% 50%,50% 50%,50% 50%, 50% 50%);
+    clip-path: polygon(
+      50% 50%,
+      50% 0%,
+      50% 0%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%,
+      50% 50%
+    );
   }
   to {
-    clip-path: polygon(50.25% 49.5%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 49.75%, 0% 0%, 18.75% 0%);
-
-  
+    clip-path: polygon(
+      50.25% 49.5%,
+      50% 0%,
+      100% 0%,
+      100% 50%,
+      100% 100%,
+      50% 100%,
+      0% 100%,
+      0% 49.75%,
+      0% 0%,
+      18.75% 0%
+    );
   }
 }
 .chart-section-all-contnet-alignment {
@@ -232,7 +318,7 @@
 
           h6 {
             color: #fff;
-            font-family: "Monda", sans-serif;
+            font-family: "Inter", sans-serif;
             text-align: center;
             margin: 0 0 12px 0;
             font-size: 21px;
@@ -256,7 +342,7 @@
               display: block;
               color: #fff;
               text-align: center;
-              font-family: "Be Vietnam Pro", sans-serif;
+              font-family: "Inter", sans-serif;
               font-size: 6px;
               font-style: normal;
               font-weight: 400;
@@ -283,7 +369,6 @@
   padding: 40px 0 80px 0;
   overflow: hidden;
 
-
   @include breakpoint("sm-max") {
     padding: 0 0 40px 0;
   }
@@ -292,13 +377,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 
-  
-
     @include breakpoint("sm-max") {
-      grid-template-columns: repeat(1 , 1fr);
+      grid-template-columns: repeat(1, 1fr);
     }
-
-   
 
     .grid-items {
       background: #053969;
@@ -332,7 +413,7 @@
         }
         h6 {
           color: #fff;
-          font-family: "Monda", sans-serif;
+          font-family: "Inter", sans-serif;
           text-align: center;
           margin: 0 0 12px 0;
           font-size: 21px;
@@ -353,7 +434,7 @@
           display: block;
           color: #fff;
           text-align: center;
-          font-family: "Be Vietnam Pro", sans-serif;
+          font-family: "Inter", sans-serif;
           font-size: 6px;
           font-style: normal;
           font-weight: 400;
@@ -402,10 +483,10 @@
       height: 100px;
     }
   }
-  
+
   .circle-container::before,
   .circle-container::after {
-    content: '';
+    content: "";
     position: absolute;
     top: -2px;
     left: -2px;
@@ -414,14 +495,14 @@
     border-radius: inherit; /* Inherit the 50% border-radius from the parent */
     z-index: 0;
   }
-  
+
   .circle-container::before {
-    border: 10px solid #D9D9D9;
+    border: 10px solid #d9d9d9;
     @include breakpoint("sm-max") {
-      border: 6px solid #D9D9D9;
+      border: 6px solid #d9d9d9;
     }
   }
-  
+
   .circle-container::after {
     border: 10px solid red;
     @include breakpoint("sm-max") {
@@ -432,7 +513,7 @@
   .animate-border::after {
     animation: fillRedBorder 3s linear forwards;
   }
-  
+
   .circle-container97 {
     position: relative;
     width: 150px;
@@ -444,10 +525,10 @@
       height: 100px;
     }
   }
-  
+
   .circle-container97::before,
   .circle-container97::after {
-    content: '';
+    content: "";
     position: absolute;
     top: -2px;
     left: -2px;
@@ -456,32 +537,32 @@
     border-radius: inherit; /* Inherit the 50% border-radius from the parent */
     z-index: 0;
   }
-  
+
   .circle-container97::before {
-    border: 10px solid #D9D9D9;
+    border: 10px solid #d9d9d9;
     @include breakpoint("sm-max") {
-      border: 6px solid #D9D9D9;
+      border: 6px solid #d9d9d9;
     }
   }
-  
+
   .circle-container97::after {
-    border: 10px solid #00BF64;
+    border: 10px solid #00bf64;
     @include breakpoint("sm-max") {
-      border: 6px solid #00BF64;
+      border: 6px solid #00bf64;
     } /* Red border that will be revealed */
     /* Remove the animation property from here */
   }
   .animate-border97::after {
     animation: fillGreenBorder97 3s linear forwards;
   }
-  
+
   .text-1 {
-    .title-1{
+    .title-1 {
       font-size: 36px;
       font-weight: bolder;
       @include breakpoint("sm-max") {
         font-size: 25px;
-        }
+      }
     }
     font-size: 7px;
     color: white;
@@ -492,7 +573,7 @@
     transform: translateY(-50%);
     z-index: 1;
     @include breakpoint("sm-max") {
-    font-size: 5px;
+      font-size: 5px;
     }
   }
 }
@@ -507,12 +588,11 @@
     width: 100px;
     height: 100px;
   }
-
 }
 
 .circle-container2-3::before,
 .circle-container2-3::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
@@ -523,24 +603,22 @@
 }
 
 .circle-container2-3::before {
-  border: 10px solid #D9D9D9;
+  border: 10px solid #d9d9d9;
 
   @include breakpoint("sm-max") {
-    border: 6px solid #D9D9D9;
-  }  /* Initial grey border */
+    border: 6px solid #d9d9d9;
+  } /* Initial grey border */
 }
 
 .circle-container2-3::after {
-  border: 10px solid #00BF64;
+  border: 10px solid #00bf64;
   @include breakpoint("sm-max") {
-    border: 6px solid #00BF64;
+    border: 6px solid #00bf64;
   }
 }
 .animate-border2-3::after {
   animation: fillRedBorder 3s linear forwards;
 }
-
-
 
 .circle-container4-6 {
   position: relative;
@@ -552,12 +630,11 @@
     width: 100px;
     height: 100px;
   }
-
 }
 
 .circle-container4-6::before,
 .circle-container4-6::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
@@ -568,23 +645,22 @@
 }
 
 .circle-container4-6::before {
-  border: 10px solid #D9D9D9;
+  border: 10px solid #d9d9d9;
   @include breakpoint("sm-max") {
-    border: 6px solid #D9D9D9;
+    border: 6px solid #d9d9d9;
   } /* Initial grey border */
 }
 
 .circle-container4-6::after {
-  border: 10px solid #FFDB56;
+  border: 10px solid #ffdb56;
   @include breakpoint("sm-max") {
-    border: 6px solid #FFDB56;
+    border: 6px solid #ffdb56;
   } /* Red border that will be revealed */
   /* Remove the animation property from here */
 }
 .animate-border4-6::after {
   animation: fillYellowBorder 2s ease-in forwards;
 }
-
 
 .circle-container7-8 {
   position: relative;
@@ -600,7 +676,7 @@
 
 .circle-container7-8::before,
 .circle-container7-8::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
@@ -611,22 +687,21 @@
 }
 
 .circle-container7-8::before {
-  border: 10px solid #D9D9D9;
+  border: 10px solid #d9d9d9;
   @include breakpoint("sm-max") {
-    border: 6px solid #D9D9D9;
+    border: 6px solid #d9d9d9;
   }
 }
 
 .circle-container7-8::after {
-  border: 10px solid #00BF64;
+  border: 10px solid #00bf64;
   @include breakpoint("sm-max") {
-    border: 6px solid #00BF64;
+    border: 6px solid #00bf64;
   } /* Red border that will be revealed */
   /* Remove the animation property from here */
 }
 .animate-border7-8::after {
   animation: fillGreenBorder 3s linear forwards;
-
 }
 .circle-container87 {
   position: relative;
@@ -642,7 +717,7 @@
 
 .circle-container87::before,
 .circle-container87::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
@@ -653,23 +728,22 @@
 }
 
 .circle-container87::before {
-  border: 10px solid #D9D9D9;
+  border: 10px solid #d9d9d9;
   @include breakpoint("sm-max") {
-    border: 6px solid #D9D9D9;
+    border: 6px solid #d9d9d9;
   }
 }
 
 .circle-container87::after {
-  border: 10px solid #00BF64;
+  border: 10px solid #00bf64;
   @include breakpoint("sm-max") {
-    border: 6px solid #00BF64;
+    border: 6px solid #00bf64;
   } /* Red border that will be revealed */
   /* Remove the animation property from here */
 }
 .animate-border87::after {
   animation: fillGreenBorder87 3s linear forwards;
 }
-
 
 .circle-container16 {
   position: relative;
@@ -685,7 +759,7 @@
 
 .circle-container16::before,
 .circle-container16::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
@@ -696,9 +770,9 @@
 }
 
 .circle-container16::before {
-  border: 10px solid #D9D9D9;
+  border: 10px solid #d9d9d9;
   @include breakpoint("sm-max") {
-    border: 6px solid #D9D9D9;
+    border: 6px solid #d9d9d9;
   }
 }
 
@@ -727,7 +801,7 @@
 
 .circle-container37::before,
 .circle-container37::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
@@ -738,23 +812,22 @@
 }
 
 .circle-container37::before {
-  border: 10px solid #D9D9D9;
+  border: 10px solid #d9d9d9;
   @include breakpoint("sm-max") {
-    border: 6px solid #D9D9D9;
+    border: 6px solid #d9d9d9;
   }
 }
 
 .circle-container37::after {
-  border: 10px solid #FFDB56;
+  border: 10px solid #ffdb56;
   @include breakpoint("sm-max") {
-    border: 6px solid #FFDB56;
+    border: 6px solid #ffdb56;
   } /* Red border that will be revealed */
   /* Remove the animation property from here */
 }
 .animate-border37::after {
   animation: fillYellowBorder37 3s linear forwards;
 }
-
 
 .circle-container94 {
   position: relative;
@@ -770,7 +843,7 @@
 
 .circle-container94::before,
 .circle-container94::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
@@ -781,16 +854,16 @@
 }
 
 .circle-container94::before {
-  border: 10px solid #D9D9D9;
+  border: 10px solid #d9d9d9;
   @include breakpoint("sm-max") {
-    border: 6px solid #D9D9D9;
+    border: 6px solid #d9d9d9;
   }
 }
 
 .circle-container94::after {
-  border: 10px solid #00BF64;
+  border: 10px solid #00bf64;
   @include breakpoint("sm-max") {
-    border: 6px solid #00BF64;
+    border: 6px solid #00bf64;
   } /* Red border that will be revealed */
   /* Remove the animation property from here */
 }
@@ -799,12 +872,12 @@
 }
 
 .text-1 {
-  .title-1{
+  .title-1 {
     font-size: 36px;
     font-weight: bolder;
     @include breakpoint("sm-max") {
       font-size: 25px;
-      }
+    }
   }
   font-size: 7px;
   color: white;
@@ -815,9 +888,6 @@
   transform: translateY(-50%);
   z-index: 1;
   @include breakpoint("sm-max") {
-  font-size: 5px;
+    font-size: 5px;
   }
 }
-
-
-

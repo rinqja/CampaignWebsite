@@ -161,7 +161,6 @@
       @include breakpoint("md-max") {
         padding: 52px 46px;
       }
-      
 
       .text {
         padding: 0 0 31px 0;
@@ -170,12 +169,11 @@
         }
         p {
           color: #fff;
-          font-size: 14px;
-          margin: 0 0 20px 0;
-          max-width: 534px;
+          font-size: 24px;
           font-style: normal;
-          font-weight: 400;
-          line-height: 135.523%; /* 18.973px */
+          font-weight: 700;
+          line-height: 135.523%;
+          /* 18.973px */
 
           @include breakpoint("md-max") {
             font-size: 12px;
@@ -196,8 +194,8 @@
         padding: 18px 32px;
         font-weight: 400;
         width: fit-content;
-          transition: 0.3s ease-in-out;
-          line-height: normal;
+        transition: 0.3s ease-in-out;
+        line-height: normal;
 
         &:hover {
           border-radius: 5px;
@@ -283,7 +281,7 @@
 
         @include breakpoint("sm-max") {
           gap: 5px;
-        } 
+        }
 
         span {
           color: #fff;

@@ -59,7 +59,7 @@ export default function Processsection() {
             <div className="flip-card one">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Cilat janë<br/>prioritetet tuaja<br/>kryesore për<br/>komunitetin tonë?</p>
+                  <p>Cilat janë<br />prioritetet tuaja<br />kryesore për<br />komunitetin tonë?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -75,7 +75,7 @@ export default function Processsection() {
             <div className="flip-card two">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Si planifikoni të<br/>angazhoheni me<br/>zgjedhësit?</p>
+                  <p>Si planifikoni të<br />angazhoheni me<br />zgjedhësit?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -90,7 +90,7 @@ export default function Processsection() {
             <div className="flip-card three">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Çfarë përvoje<br/>sillni në këtë<br/>pozicion?</p>
+                  <p>Çfarë përvoje<br />sillni në këtë<br />pozicion?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -105,7 +105,7 @@ export default function Processsection() {
             <div className="flip-card new2">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Si do të siguroni<br/>transparencë në<br/>qeverisje?</p>
+                  <p>Si do të siguroni<br />transparencë në<br />qeverisje?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -122,7 +122,7 @@ export default function Processsection() {
             <div className="flip-card new1">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Çfarë e veçon<br/>qasjen tuaj nga<br/>qeverisja<br/>tradicionale?</p>
+                  <p>Çfarë e veçon<br />qasjen tuaj nga<br />qeverisja<br />tradicionale?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -137,7 +137,7 @@ export default function Processsection() {
             <div className="flip-card four">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Cili është plani juaj<br/>për rritje<br/>ekonomike?</p>
+                  <p>Cili është plani juaj<br />për rritje<br />ekonomike?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -147,12 +147,13 @@ export default function Processsection() {
                   </span>
                 </div>
               </div>
+
             </div>
 
             <div className="flip-card five">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Si do të adresoni<br/>çështjet<br/>mjedisore?</p>
+                  <p>Si do të adresoni<br />çështjet<br />mjedisore?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -167,7 +168,7 @@ export default function Processsection() {
             <div className="flip-card six">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Cilat janë planet<br/>tuaja për reformën<br/>në arsim?</p>
+                  <p>Cilat janë planet<br />tuaja për reformën<br />në arsim?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -185,7 +186,7 @@ export default function Processsection() {
             <div className="flip-card new3">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Si do të përmirësoni<br/>sigurinë publike?</p>
+                  <p>Si do të përmirësoni<br />sigurinë publike?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -197,10 +198,10 @@ export default function Processsection() {
               </div>
             </div>
 
-            <div className="flip-card new4">
+            <div className="flip-card new1">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Çfarë për shërbimet<br/>për të moshuarit?</p>
+                  <p>Çfarë për shërbimet<br />për të moshuarit?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -212,10 +213,10 @@ export default function Processsection() {
               </div>
             </div>
 
-            <div className="flip-card new5">
+            <div className="flip-card four">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Si do të mbështesni<br/>bizneset lokale?</p>
+                  <p>Si do të mbështesni<br />bizneset lokale?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -227,10 +228,10 @@ export default function Processsection() {
               </div>
             </div>
 
-            <div className="flip-card new6">
+            <div className="flip-card six">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <p>Cila është vizioni juaj<br/>për infrastrukturën?</p>
+                  <p>Cila është vizioni juaj<br />për infrastrukturën?</p>
                 </div>
                 <div className="flip-card-back">
                   <span>
@@ -243,11 +244,11 @@ export default function Processsection() {
             </div>
           </div>
         </div>
-        
+
         <div className="h-m">
           <div className="new-contnet-alignment-design-style" onClick={() => setToggle(!toggle)}>
             <a>{toggle ? 'Trego Më Pak' : 'Trego Më Shumë'}</a>
-            <img className={toggle ? "animation-time rotate" : "animation-time"} src={DownIcon} alt="DownIcon"/>
+            <img className={toggle ? "animation-time rotate" : "animation-time"} src={DownIcon} alt="DownIcon" />
           </div>
         </div>
       </div>

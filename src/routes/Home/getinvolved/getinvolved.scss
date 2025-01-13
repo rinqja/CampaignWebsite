@@ -34,8 +34,10 @@
 
         .box-image {
           position: absolute;
-          top: -8%;
+          top: -2%;
           right: -8%;
+          width: 30%;
+          height: 20%;
 
           @include breakpoint("md-max") {
             top: 0%;
@@ -176,7 +178,7 @@
         img[alt="ManImage"] {
           @include breakpoint("sm-max") {
             display: none;
-          } 
+          }
         }
 
         img[alt="MobileManImage"] {

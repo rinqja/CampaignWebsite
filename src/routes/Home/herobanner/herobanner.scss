@@ -1,54 +1,61 @@
-@import '../../../../styles/mixins/index.scss';
-@import '../../../../styles/variables.scss';
+@import "../../../../styles/mixins/index.scss";
+@import "../../../../styles/variables.scss";
 
 .hero-banner {
-    background-image: linear-gradient(
-        rgba($primary-dark, 0.1),  // Very transparent at top
-        rgba($primary-dark, 0.4) 30%,  // Gradually getting darker
-        rgba($primary-blue, 0.8) 80%,  // More opaque in middle-bottom
-        rgba($primary-dark, 0.95) 100%  // Almost solid at bottom
-    ), url('../../../assets/imges/lumir2.jpeg');   
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 890px;
-    h1, h2, h3, p {
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(
+      rgba($primary-dark, 0.1),
+      // Very transparent at top
+      rgba($primary-dark, 0.4) 30%,
+      // Gradually getting darker
+      rgba($primary-blue, 0.8) 80%,
+      // More opaque in middle-bottom
+      rgba($primary-dark, 0.95) 100% // Almost solid at bottom
+    ),
+    url("../../../assets/imges/lumir1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 890px;
+  h1,
+  h2,
+  h3,
+  p {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .text-content {
+    position: relative;
+    z-index: 2;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        to right,
+        rgba($primary-dark, 0.6),
+        transparent
+      );
+      z-index: -1;
     }
-    .text-content {
-        position: relative;
-        z-index: 2;
-        &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(
-                to right,
-                rgba($primary-dark, 0.6),
-                transparent
-            );
-            z-index: -1;
-        }
-    }
+  }
 
+  @include breakpoint("md-max") {
+    height: 529px;
+    background-image: url("../../../assets/imges/tab-banner.png");
+  }
+  @include breakpoint("sm-max") {
+    height: 529px;
+    background-image: url("../../../assets/imges/mobile-banner.png");
+  }
+
+  .container {
     @include breakpoint("md-max") {
-        height: 529px;
-        background-image: url('../../../assets/imges/tab-banner.png');
+      padding: 0 50px;
     }
     @include breakpoint("sm-max") {
-        height: 529px;
-        background-image: url('../../../assets/imges/mobile-banner.png');
+      padding: 0 20px;
     }
-
-    .container {
-        @include breakpoint("md-max") {
-            padding: 0 50px;
-        }
-        @include breakpoint("sm-max") {
-            padding: 0 20px;
-        }
-    }
+  }
 }

@@ -236,7 +236,6 @@ export default function Chartsection() {
                     </div>
                     <div className="last-text">
                       <span>
-                        *Bazuar në statistikat e angazhimit të komunitetit 2022-2024
                       </span>
                     </div>
                   </div>
@@ -278,7 +277,6 @@ export default function Chartsection() {
                     </div>
                     <div className="last-text">
                       <span>
-                        *Bazuar në treguesit ekonomikë lokalë 2022-2024
                       </span>
                     </div>
                   </div>
@@ -319,7 +317,6 @@ export default function Chartsection() {
                     </div>
                     <div className="last-text">
                       <span>
-                        *Bazuar në raportet e infrastrukturës 2022-2024
                       </span>
                     </div>
                   </div>
@@ -360,7 +357,6 @@ export default function Chartsection() {
                     </div>
                     <div className="last-text">
                       <span>
-                        *Bazuar në iniciativat mjedisore 2022-2024
                       </span>
                     </div>
                   </div>
